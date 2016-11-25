@@ -1,0 +1,8 @@
+prefix=/home/quy/catkin_ws/devel
+
+Name: qw
+Description: Description of qw
+Version: 0.1.0
+Cflags: 
+Libs: -L/home/quy/catkin_ws/devel/lib 
+Requires: 
