@@ -5,7 +5,7 @@
       <Option title="Project" />
       <Option makefile_is_custom="1" />
       <Option compiler="gcc" />
-      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\opt\;CMake Files\..\..\..\..\opt\ros\;CMake Files\..\..\..\..\opt\ros\indigo\;CMake Files\..\..\..\..\opt\ros\indigo\share\;CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\;CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\;CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\platform\;CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\test\;CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\tools\;CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\..\;CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\templates\;CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\em\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\src\;CMake Files\..\..\..\..\usr\src\gtest\;CMake Files\..\..\..\..\usr\src\gtest\cmake\;CMake Files\..\build\;CMake Files\..\build\catkin\;CMake Files\..\build\catkin\catkin_generated\;CMake Files\..\build\catkin\catkin_generated\version\;CMake Files\..\build\catkin_generated\;CMake Files\..\build\catkin_generated\installspace\;" />
+      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\opt\;CMake Files\..\..\..\..\opt\ros\;CMake Files\..\..\..\..\opt\ros\indigo\;CMake Files\..\..\..\..\opt\ros\indigo\share\;CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\;CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\;CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\platform\;CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\test\;CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\tools\;CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\..\;CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\templates\;CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\em\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\src\;CMake Files\..\..\..\..\usr\src\gtest\;CMake Files\..\..\..\..\usr\src\gtest\cmake\;CMake Files\..\build\;CMake Files\..\build\catkin\;CMake Files\..\build\catkin\catkin_generated\;CMake Files\..\build\catkin\catkin_generated\version\;CMake Files\..\build\catkin_generated\;CMake Files\..\build\catkin_generated\installspace\;CMake Files\..\build\qw\;CMake Files\..\build\qw\catkin_generated\;CMake Files\qw\;" />
       <Build>
       <Target title="all">
          <Option working_dir="/home/quy/catkin_ws/build" />
@@ -209,6 +209,16 @@
             <DistClean command="/usr/bin/make -f &quot;/home/quy/catkin_ws/build/gtest/Makefile&quot;  VERBOSE=1 clean" />
          </MakeCommands>
       </Target>
+      <Target title="_catkin_empty_exported_target">
+         <Option working_dir="/home/quy/catkin_ws/build/qw" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/quy/catkin_ws/build/qw/Makefile&quot;  VERBOSE=1 _catkin_empty_exported_target" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/quy/catkin_ws/build/qw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/quy/catkin_ws/build/qw/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/quy/catkin_ws/build/qw/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
       </Build>
       <Unit filename="/usr/src/gtest/src/gtest-all.cc">
       </Unit>
@@ -304,6 +314,18 @@
       <Unit filename="/home/quy/catkin_ws/src/../../../../opt/ros/indigo/share/catkin/cmake/interrogate_setup_dot_py.py">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\" />
       </Unit>
+      <Unit filename="/home/quy/catkin_ws/src/../../../../opt/ros/indigo/share/catkin/cmake/catkinConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/quy/catkin_ws/src/../../../../opt/ros/indigo/share/catkin/cmake/catkinConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/quy/catkin_ws/src/../../../../opt/ros/indigo/share/catkin/cmake/catkinConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/home/quy/catkin_ws/src/../../../../opt/ros/indigo/share/catkin/cmake/catkinConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\" />
+      </Unit>
       <Unit filename="/home/quy/catkin_ws/src/../../../../opt/ros/indigo/share/catkin/cmake/platform/lsb.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\platform\" />
       </Unit>
@@ -382,7 +404,55 @@
       <Unit filename="/home/quy/catkin_ws/src/../../../../opt/ros/indigo/share/catkin/cmake/templates/order_packages.context.py.in">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\templates\" />
       </Unit>
+      <Unit filename="/home/quy/catkin_ws/src/../../../../opt/ros/indigo/share/catkin/cmake/templates/pkg.context.pc.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/quy/catkin_ws/src/../../../../opt/ros/indigo/share/catkin/cmake/templates/pkgConfig.cmake.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/quy/catkin_ws/src/../../../../opt/ros/indigo/share/catkin/cmake/templates/pkgConfig-version.cmake.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/quy/catkin_ws/src/../../../../opt/ros/indigo/share/catkin/cmake/templates/pkg.context.pc.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/quy/catkin_ws/src/../../../../opt/ros/indigo/share/catkin/cmake/templates/pkgConfig.cmake.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/quy/catkin_ws/src/../../../../opt/ros/indigo/share/catkin/cmake/templates/pkgConfig-version.cmake.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/quy/catkin_ws/src/../../../../opt/ros/indigo/share/catkin/cmake/templates/pkg.context.pc.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/quy/catkin_ws/src/../../../../opt/ros/indigo/share/catkin/cmake/templates/pkgConfig.cmake.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/quy/catkin_ws/src/../../../../opt/ros/indigo/share/catkin/cmake/templates/pkgConfig-version.cmake.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/quy/catkin_ws/src/../../../../opt/ros/indigo/share/catkin/cmake/templates/pkg.context.pc.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/quy/catkin_ws/src/../../../../opt/ros/indigo/share/catkin/cmake/templates/pkgConfig.cmake.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/home/quy/catkin_ws/src/../../../../opt/ros/indigo/share/catkin/cmake/templates/pkgConfig-version.cmake.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\templates\" />
+      </Unit>
       <Unit filename="/home/quy/catkin_ws/src/../../../../opt/ros/indigo/share/catkin/cmake/em/order_packages.cmake.em">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\em\" />
+      </Unit>
+      <Unit filename="/home/quy/catkin_ws/src/../../../../opt/ros/indigo/share/catkin/cmake/em/pkg.pc.em">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\em\" />
+      </Unit>
+      <Unit filename="/home/quy/catkin_ws/src/../../../../opt/ros/indigo/share/catkin/cmake/em/pkg.pc.em">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\em\" />
+      </Unit>
+      <Unit filename="/home/quy/catkin_ws/src/../../../../opt/ros/indigo/share/catkin/cmake/em/pkg.pc.em">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\em\" />
+      </Unit>
+      <Unit filename="/home/quy/catkin_ws/src/../../../../opt/ros/indigo/share/catkin/cmake/em/pkg.pc.em">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\indigo\share\catkin\cmake\em\" />
       </Unit>
       <Unit filename="/home/quy/catkin_ws/src/../../../../usr/src/gtest/CMakeLists.txt">
@@ -405,6 +475,24 @@
       </Unit>
       <Unit filename="/home/quy/catkin_ws/src/../build/catkin_generated/installspace/_setup_util.py">
           <Option virtualFolder="CMake Files\..\build\catkin_generated\installspace\" />
+      </Unit>
+      <Unit filename="/home/quy/catkin_ws/src/../build/qw/catkin_generated/package.cmake">
+          <Option virtualFolder="CMake Files\..\build\qw\catkin_generated\" />
+      </Unit>
+      <Unit filename="/home/quy/catkin_ws/src/../build/qw/catkin_generated/package.cmake">
+          <Option virtualFolder="CMake Files\..\build\qw\catkin_generated\" />
+      </Unit>
+      <Unit filename="/home/quy/catkin_ws/src/qw/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\qw\" />
+      </Unit>
+      <Unit filename="/home/quy/catkin_ws/src/qw/package.xml">
+          <Option virtualFolder="CMake Files\qw\" />
+      </Unit>
+      <Unit filename="/home/quy/catkin_ws/src/qw/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\qw\" />
+      </Unit>
+      <Unit filename="/home/quy/catkin_ws/src/qw/package.xml">
+          <Option virtualFolder="CMake Files\qw\" />
       </Unit>
    </Project>
 </CodeBlocks_project_file>

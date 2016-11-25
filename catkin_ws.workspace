@@ -1,10 +1,10 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Workspace>
     <WatchDirectories>
         <Directory>src</Directory>
     </WatchDirectories>
     <IncludePaths>
+        <Directory>/home/quy/catkin_ws/src/qw/include</Directory>
         <Directory>/usr/src/gtest</Directory>
-        <Directory>/usr/src/gtest/include</Directory>
     </IncludePaths>
 </Workspace>
