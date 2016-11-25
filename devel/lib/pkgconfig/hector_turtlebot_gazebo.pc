@@ -1,0 +1,8 @@
+prefix=/home/quy/catkin_ws/devel
+
+Name: hector_turtlebot_gazebo
+Description: Description of hector_turtlebot_gazebo
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/quy/catkin_ws/devel/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/quy/catkin_ws/install
+
+Name: hector_turtlebot_scan_filter
+Description: Description of hector_turtlebot_scan_filter
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/quy/catkin_ws/install/lib 
+Requires: 

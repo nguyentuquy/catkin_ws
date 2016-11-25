@@ -1,0 +1,8 @@
+prefix=/home/quy/catkin_ws/install
+
+Name: turtlebot_hector_mapping
+Description: Description of turtlebot_hector_mapping
+Version: 1.0.0
+Cflags: 
+Libs: -L/home/quy/catkin_ws/install/lib 
+Requires: 

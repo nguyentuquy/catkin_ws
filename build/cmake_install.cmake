@@ -117,7 +117,17 @@ ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unsp
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   INCLUDE("/home/quy/catkin_ws/build/gtest/cmake_install.cmake")
+  INCLUDE("/home/quy/catkin_ws/build/hector_models/hector_components_description/cmake_install.cmake")
+  INCLUDE("/home/quy/catkin_ws/build/hector_models/hector_models/cmake_install.cmake")
+  INCLUDE("/home/quy/catkin_ws/build/hector_models/hector_sensors_description/cmake_install.cmake")
+  INCLUDE("/home/quy/catkin_ws/build/hector_turtlebot/hector_turtlebot_navigation/cmake_install.cmake")
+  INCLUDE("/home/quy/catkin_ws/build/hector_models/hector_xacro_tools/cmake_install.cmake")
   INCLUDE("/home/quy/catkin_ws/build/qw/cmake_install.cmake")
+  INCLUDE("/home/quy/catkin_ws/build/hector_turtlebot/hector_turtlebot_scan_filter/cmake_install.cmake")
+  INCLUDE("/home/quy/catkin_ws/build/hector_turtlebot/hector_turtlebot_description/cmake_install.cmake")
+  INCLUDE("/home/quy/catkin_ws/build/hector_turtlebot/hector_turtlebot_gazebo/cmake_install.cmake")
+  INCLUDE("/home/quy/catkin_ws/build/kobuki_controller_tutorial/cmake_install.cmake")
+  INCLUDE("/home/quy/catkin_ws/build/turtlebot-hector-mapping/turtlebot_hector_mapping/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

@@ -251,8 +251,44 @@ _CATKIN_GTEST_INCLUDE:FILEPATH=/usr/include/gtest/gtest.h
 //Path to a file.
 _CATKIN_GTEST_SRC:FILEPATH=/usr/src/gtest/src/gtest.cc
 
+//The directory containing a CMake configuration file for actionlib.
+actionlib_DIR:PATH=/opt/ros/indigo/share/actionlib/cmake
+
+//The directory containing a CMake configuration file for actionlib_msgs.
+actionlib_msgs_DIR:PATH=/opt/ros/indigo/share/actionlib_msgs/cmake
+
+//The directory containing a CMake configuration file for bond.
+bond_DIR:PATH=/opt/ros/indigo/share/bond/cmake
+
+//The directory containing a CMake configuration file for bondcpp.
+bondcpp_DIR:PATH=/opt/ros/indigo/share/bondcpp/cmake
+
+//Dependencies for the target
+bump_blink_controller_nodelet_LIB_DEPENDS:STATIC=general;/opt/ros/indigo/lib/libnodeletlib.so;general;/opt/ros/indigo/lib/libbondcpp.so;general;/usr/lib/x86_64-linux-gnu/libuuid.so;general;/usr/lib/x86_64-linux-gnu/libtinyxml.so;general;/opt/ros/indigo/lib/libclass_loader.so;general;/usr/lib/libPocoFoundation.so;general;/usr/lib/x86_64-linux-gnu/libdl.so;general;/opt/ros/indigo/lib/libroslib.so;general;/opt/ros/indigo/lib/libroscpp.so;general;/usr/lib/x86_64-linux-gnu/libboost_signals.so;general;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;general;/opt/ros/indigo/lib/librosconsole.so;general;/opt/ros/indigo/lib/librosconsole_log4cxx.so;general;/opt/ros/indigo/lib/librosconsole_backend_interface.so;general;/usr/lib/liblog4cxx.so;general;/usr/lib/x86_64-linux-gnu/libboost_regex.so;general;/opt/ros/indigo/lib/libroscpp_serialization.so;general;/opt/ros/indigo/lib/librostime.so;general;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;general;/opt/ros/indigo/lib/libxmlrpcpp.so;general;/opt/ros/indigo/lib/libcpp_common.so;general;/usr/lib/x86_64-linux-gnu/libboost_system.so;general;/usr/lib/x86_64-linux-gnu/libboost_thread.so;general;/usr/lib/x86_64-linux-gnu/libpthread.so;general;/usr/lib/x86_64-linux-gnu/libconsole_bridge.so;
+
 //The directory containing a CMake configuration file for catkin.
 catkin_DIR:PATH=/opt/ros/indigo/share/catkin/cmake
+
+//The directory containing a CMake configuration file for class_loader.
+class_loader_DIR:PATH=/opt/ros/indigo/share/class_loader/cmake
+
+//The directory containing a CMake configuration file for cpp_common.
+cpp_common_DIR:PATH=/opt/ros/indigo/share/cpp_common/cmake
+
+//The directory containing a CMake configuration file for gencpp.
+gencpp_DIR:PATH=/opt/ros/indigo/share/gencpp/cmake
+
+//The directory containing a CMake configuration file for genlisp.
+genlisp_DIR:PATH=/opt/ros/indigo/share/genlisp/cmake
+
+//The directory containing a CMake configuration file for genmsg.
+genmsg_DIR:PATH=/opt/ros/indigo/share/genmsg/cmake
+
+//The directory containing a CMake configuration file for genpy.
+genpy_DIR:PATH=/opt/ros/indigo/share/genpy/cmake
+
+//The directory containing a CMake configuration file for geometry_msgs.
+geometry_msgs_DIR:PATH=/opt/ros/indigo/share/geometry_msgs/cmake
 
 //Value Computed by CMake
 gtest_BINARY_DIR:STATIC=/home/quy/catkin_ws/build/gtest
@@ -280,10 +316,187 @@ gtest_force_shared_crt:BOOL=OFF
 gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
 
 //Value Computed by CMake
+hector_components_description_BINARY_DIR:STATIC=/home/quy/catkin_ws/build/hector_models/hector_components_description
+
+//Value Computed by CMake
+hector_components_description_SOURCE_DIR:STATIC=/home/quy/catkin_ws/src/hector_models/hector_components_description
+
+//The directory containing a CMake configuration file for hector_mapping.
+hector_mapping_DIR:PATH=/opt/ros/indigo/share/hector_mapping/cmake
+
+//Value Computed by CMake
+hector_models_BINARY_DIR:STATIC=/home/quy/catkin_ws/build/hector_models/hector_models
+
+//Value Computed by CMake
+hector_models_SOURCE_DIR:STATIC=/home/quy/catkin_ws/src/hector_models/hector_models
+
+//Value Computed by CMake
+hector_sensors_description_BINARY_DIR:STATIC=/home/quy/catkin_ws/build/hector_models/hector_sensors_description
+
+//The directory containing a CMake configuration file for hector_sensors_description.
+hector_sensors_description_DIR:PATH=/home/quy/catkin_ws/devel/share/hector_sensors_description/cmake
+
+//Value Computed by CMake
+hector_sensors_description_SOURCE_DIR:STATIC=/home/quy/catkin_ws/src/hector_models/hector_sensors_description
+
+//Value Computed by CMake
+hector_turtlebot_description_BINARY_DIR:STATIC=/home/quy/catkin_ws/build/hector_turtlebot/hector_turtlebot_description
+
+//The directory containing a CMake configuration file for hector_turtlebot_description.
+hector_turtlebot_description_DIR:PATH=/home/quy/catkin_ws/devel/share/hector_turtlebot_description/cmake
+
+//Value Computed by CMake
+hector_turtlebot_description_SOURCE_DIR:STATIC=/home/quy/catkin_ws/src/hector_turtlebot/hector_turtlebot_description
+
+//Value Computed by CMake
+hector_turtlebot_gazebo_BINARY_DIR:STATIC=/home/quy/catkin_ws/build/hector_turtlebot/hector_turtlebot_gazebo
+
+//Value Computed by CMake
+hector_turtlebot_gazebo_SOURCE_DIR:STATIC=/home/quy/catkin_ws/src/hector_turtlebot/hector_turtlebot_gazebo
+
+//Value Computed by CMake
+hector_turtlebot_navigation_BINARY_DIR:STATIC=/home/quy/catkin_ws/build/hector_turtlebot/hector_turtlebot_navigation
+
+//Value Computed by CMake
+hector_turtlebot_navigation_SOURCE_DIR:STATIC=/home/quy/catkin_ws/src/hector_turtlebot/hector_turtlebot_navigation
+
+//Value Computed by CMake
+hector_turtlebot_scan_filter_BINARY_DIR:STATIC=/home/quy/catkin_ws/build/hector_turtlebot/hector_turtlebot_scan_filter
+
+//Value Computed by CMake
+hector_turtlebot_scan_filter_SOURCE_DIR:STATIC=/home/quy/catkin_ws/src/hector_turtlebot/hector_turtlebot_scan_filter
+
+//Value Computed by CMake
+hector_xacro_tools_BINARY_DIR:STATIC=/home/quy/catkin_ws/build/hector_models/hector_xacro_tools
+
+//Value Computed by CMake
+hector_xacro_tools_SOURCE_DIR:STATIC=/home/quy/catkin_ws/src/hector_models/hector_xacro_tools
+
+//The directory containing a CMake configuration file for kdl_conversions.
+kdl_conversions_DIR:PATH=/opt/ros/indigo/share/kdl_conversions/cmake
+
+//Value Computed by CMake
+kobuki_controller_tutorial_BINARY_DIR:STATIC=/home/quy/catkin_ws/build/kobuki_controller_tutorial
+
+//Value Computed by CMake
+kobuki_controller_tutorial_SOURCE_DIR:STATIC=/home/quy/catkin_ws/src/kobuki_controller_tutorial
+
+//The directory containing a CMake configuration file for kobuki_msgs.
+kobuki_msgs_DIR:PATH=/opt/ros/indigo/share/kobuki_msgs/cmake
+
+//The directory containing a CMake configuration file for laser_geometry.
+laser_geometry_DIR:PATH=/opt/ros/indigo/share/laser_geometry/cmake
+
+//Path to a library.
+lib:FILEPATH=/opt/ros/indigo/lib/libkdl_conversions.so
+
+//The directory containing a CMake configuration file for message_filters.
+message_filters_DIR:PATH=/opt/ros/indigo/share/message_filters/cmake
+
+//The directory containing a CMake configuration file for message_generation.
+message_generation_DIR:PATH=/opt/ros/indigo/share/message_generation/cmake
+
+//The directory containing a CMake configuration file for message_runtime.
+message_runtime_DIR:PATH=/opt/ros/indigo/share/message_runtime/cmake
+
+//The directory containing a CMake configuration file for nav_msgs.
+nav_msgs_DIR:PATH=/opt/ros/indigo/share/nav_msgs/cmake
+
+//The directory containing a CMake configuration file for nodelet.
+nodelet_DIR:PATH=/opt/ros/indigo/share/nodelet/cmake
+
+//The directory containing a CMake configuration file for pluginlib.
+pluginlib_DIR:PATH=/opt/ros/indigo/share/pluginlib/cmake
+
+//Value Computed by CMake
 qw_BINARY_DIR:STATIC=/home/quy/catkin_ws/build/qw
 
 //Value Computed by CMake
 qw_SOURCE_DIR:STATIC=/home/quy/catkin_ws/src/qw
+
+//The directory containing a CMake configuration file for rosconsole.
+rosconsole_DIR:PATH=/opt/ros/indigo/share/rosconsole/cmake
+
+//The directory containing a CMake configuration file for rosconsole_bridge.
+rosconsole_bridge_DIR:PATH=/opt/ros/indigo/share/rosconsole_bridge/cmake
+
+//The directory containing a CMake configuration file for roscpp.
+roscpp_DIR:PATH=/opt/ros/indigo/share/roscpp/cmake
+
+//The directory containing a CMake configuration file for roscpp_serialization.
+roscpp_serialization_DIR:PATH=/opt/ros/indigo/share/roscpp_serialization/cmake
+
+//The directory containing a CMake configuration file for roscpp_traits.
+roscpp_traits_DIR:PATH=/opt/ros/indigo/share/roscpp_traits/cmake
+
+//The directory containing a CMake configuration file for rosgraph.
+rosgraph_DIR:PATH=/opt/ros/indigo/share/rosgraph/cmake
+
+//The directory containing a CMake configuration file for rosgraph_msgs.
+rosgraph_msgs_DIR:PATH=/opt/ros/indigo/share/rosgraph_msgs/cmake
+
+//The directory containing a CMake configuration file for roslib.
+roslib_DIR:PATH=/opt/ros/indigo/share/roslib/cmake
+
+//The directory containing a CMake configuration file for rospy.
+rospy_DIR:PATH=/opt/ros/indigo/share/rospy/cmake
+
+//The directory containing a CMake configuration file for rostime.
+rostime_DIR:PATH=/opt/ros/indigo/share/rostime/cmake
+
+//The directory containing a CMake configuration file for sensor_msgs.
+sensor_msgs_DIR:PATH=/opt/ros/indigo/share/sensor_msgs/cmake
+
+//The directory containing a CMake configuration file for smclib.
+smclib_DIR:PATH=/opt/ros/indigo/share/smclib/cmake
+
+//The directory containing a CMake configuration file for std_msgs.
+std_msgs_DIR:PATH=/opt/ros/indigo/share/std_msgs/cmake
+
+//The directory containing a CMake configuration file for tf2.
+tf2_DIR:PATH=/opt/ros/indigo/share/tf2/cmake
+
+//The directory containing a CMake configuration file for tf2_msgs.
+tf2_msgs_DIR:PATH=/opt/ros/indigo/share/tf2_msgs/cmake
+
+//The directory containing a CMake configuration file for tf2_py.
+tf2_py_DIR:PATH=/opt/ros/indigo/share/tf2_py/cmake
+
+//The directory containing a CMake configuration file for tf2_ros.
+tf2_ros_DIR:PATH=/opt/ros/indigo/share/tf2_ros/cmake
+
+//The directory containing a CMake configuration file for tf.
+tf_DIR:PATH=/opt/ros/indigo/share/tf/cmake
+
+//The directory containing a CMake configuration file for tf_conversions.
+tf_conversions_DIR:PATH=/opt/ros/indigo/share/tf_conversions/cmake
+
+//The directory containing a CMake configuration file for turtlebot_description.
+turtlebot_description_DIR:PATH=/opt/ros/indigo/share/turtlebot_description/cmake
+
+//The directory containing a CMake configuration file for turtlebot_gazebo.
+turtlebot_gazebo_DIR:PATH=/opt/ros/indigo/share/turtlebot_gazebo/cmake
+
+//Value Computed by CMake
+turtlebot_hector_mapping_BINARY_DIR:STATIC=/home/quy/catkin_ws/build/turtlebot-hector-mapping/turtlebot_hector_mapping
+
+//Value Computed by CMake
+turtlebot_hector_mapping_SOURCE_DIR:STATIC=/home/quy/catkin_ws/src/turtlebot-hector-mapping/turtlebot_hector_mapping
+
+//The directory containing a CMake configuration file for urdf.
+urdf_DIR:PATH=/opt/ros/indigo/share/urdf/cmake
+
+//The directory containing a CMake configuration file for visualization_msgs.
+visualization_msgs_DIR:PATH=/opt/ros/indigo/share/visualization_msgs/cmake
+
+//The directory containing a CMake configuration file for xacro.
+xacro_DIR:PATH=/opt/ros/indigo/share/xacro/cmake
+
+//The directory containing a CMake configuration file for xmlrpcpp.
+xmlrpcpp_DIR:PATH=/opt/ros/indigo/share/xmlrpcpp/cmake
+
+//The directory containing a CMake configuration file for yocs_controllers.
+yocs_controllers_DIR:PATH=/opt/ros/indigo/share/yocs_controllers/cmake
 
 
 ########################
@@ -389,7 +602,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=3
+CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=13
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

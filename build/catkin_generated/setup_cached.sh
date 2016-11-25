@@ -7,4 +7,5 @@
 # new environment variables
 
 # modified environment variables
-export LD_LIBRARY_PATH="/home/quy/catkin_ws/devel/lib:/opt/ros/indigo/lib:/opt/qt57/lib/x86_64-linux-gnu:/opt/qt57/lib"
+export PKG_CONFIG_PATH="/home/quy/catkin_ws/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
+export PWD="/home/quy/catkin_ws/build"
