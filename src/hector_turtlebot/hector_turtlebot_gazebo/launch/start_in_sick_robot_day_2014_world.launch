@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<launch>
+  
+  <include file="$(find hector_gazebo_worlds)/launch/sick_robot_day_2014.launch"/>
+  
+  <include file="$(find hector_turtlebot_gazebo)/launch/spawn_sick_robot_day_2014_setup.launch"/>
+
+</launch>
