@@ -1,0 +1,20 @@
+cmake_minimum_required(VERSION 2.8.3)
+project(dem_wall_following)
+
+## Find catkin macros and libraries
+## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
+## is used, also find other catkin packages
+find_package(catkin REQUIRED COMPONENTS
+  roscpp
+  rospy
+  std_msgs
+)
+
+#include_directories(
+#  ${catkin_INCLUDE_DIRS}
+#)
+
+set (SRCS1 ${SRCS1} src/wallFollowing.cpp)
+include_directories(include ${catkin_INCLUDE_DIRS})
+add_executable(wallFollowing src/node_wallFollowing.cpp)
+target_link_libraries(wallFollowing ${catkin_LIBRARIES})

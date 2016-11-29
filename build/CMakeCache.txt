@@ -275,6 +275,12 @@ class_loader_DIR:PATH=/opt/ros/indigo/share/class_loader/cmake
 //The directory containing a CMake configuration file for cpp_common.
 cpp_common_DIR:PATH=/opt/ros/indigo/share/cpp_common/cmake
 
+//Value Computed by CMake
+dem_wall_following_BINARY_DIR:STATIC=/home/quy/catkin_ws/build/dem_wall_following
+
+//Value Computed by CMake
+dem_wall_following_SOURCE_DIR:STATIC=/home/quy/catkin_ws/src/dem_wall_following
+
 //The directory containing a CMake configuration file for gencpp.
 gencpp_DIR:PATH=/opt/ros/indigo/share/gencpp/cmake
 

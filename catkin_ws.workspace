@@ -4,7 +4,9 @@
         <Directory>src</Directory>
     </WatchDirectories>
     <IncludePaths>
+        <Directory>/home/quy/catkin_ws/src/kobuki_controller_tutorial/include</Directory>
         <Directory>/home/quy/catkin_ws/src/qw/include</Directory>
         <Directory>/usr/src/gtest</Directory>
+        <Directory>/opt/ros/indigo/include</Directory>
     </IncludePaths>
 </Workspace>

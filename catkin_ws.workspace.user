@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.1.0, 2016-11-26T17:55:59. -->
+<!-- Written by QtCreator 4.1.0, 2016-11-29T18:06:43. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -86,19 +86,7 @@
      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectExplorer.BuildSteps.Build</value>
     </valuemap>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.1">
-     <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
-      <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
-      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">catkin_make</value>
-      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
-      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ROSProjectManager.ROSMakeStep</value>
-      <valuelist type="QVariantList" key="ROSProjectManager.ROSMakeStep.BuildTargets">
-       <value type="QString">clean</value>
-      </valuelist>
-      <value type="bool" key="ROSProjectManager.ROSMakeStep.Clean">true</value>
-      <value type="QString" key="ROSProjectManager.ROSMakeStep.MakeArguments"></value>
-      <value type="QString" key="ROSProjectManager.ROSMakeStep.MakeCommand"></value>
-     </valuemap>
-     <value type="int" key="ProjectExplorer.BuildStepList.StepsCount">1</value>
+     <value type="int" key="ProjectExplorer.BuildStepList.StepsCount">0</value>
      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Clean</value>
      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectExplorer.BuildSteps.Clean</value>
@@ -107,14 +95,35 @@
     <value type="bool" key="ProjectExplorer.BuildConfiguration.ClearSystemEnvironment">false</value>
     <valuelist type="QVariantList" key="ProjectExplorer.BuildConfiguration.UserEnvironmentChanges">
      <value type="QString">CMAKE_PREFIX_PATH=/home/quy/catkin_ws/devel:/opt/ros/indigo</value>
-     <value type="QString">CPATH=/opt/ros/indigo/include:/home/quy/catkin_ws/devel/include</value>
-     <value type="QString">LD_LIBRARY_PATH=/opt/ros/indigo/lib:/opt/qt57/lib/x86_64-linux-gnu:/opt/qt57/lib:/home/quy/catkin_ws/devel/lib</value>
+     <value type="QString">CPATH=/opt/ros/indigo/include</value>
+     <value type="QString">HUSKY_DESCRIPTION=/opt/ros/indigo/share/husky_description/urdf/description.xacro</value>
+     <value type="QString">HUSKY_GAZEBO_DESCRIPTION=/opt/ros/indigo/share/husky_gazebo/urdf/description.gazebo.xacro</value>
+     <value type="QString">LD_LIBRARY_PATH=/home/quy/catkin_ws/devel/lib:/opt/ros/indigo/lib:/opt/qt57/lib/x86_64-linux-gnu:/opt/qt57/lib</value>
      <value type="QString">PATH=/opt/ros/indigo/bin:/opt/qt57/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin</value>
-     <value type="QString">PKG_CONFIG_PATH=/opt/ros/indigo/lib/pkgconfig:/opt/qt57/lib/pkgconfig:/home/quy/catkin_ws/devel/lib/pkgconfig</value>
-     <value type="QString">PS1</value>
-     <value type="QString">PYTHONPATH=/opt/ros/indigo/lib/python2.7/dist-packages:/home/quy/catkin_ws/devel/lib/python2.7/dist-packages</value>
+     <value type="QString">PKG_CONFIG_PATH=/home/quy/catkin_ws/devel/lib/pkgconfig:/opt/ros/indigo/lib/pkgconfig:/opt/qt57/lib/pkgconfig</value>
+     <value type="QString">PWD=/home/quy/catkin_ws</value>
+     <value type="QString">PYTHONPATH=/opt/ros/indigo/lib/python2.7/dist-packages</value>
+     <value type="QString">ROSLISP_PACKAGE_DIRECTORIES=/home/quy/catkin_ws/devel/share/common-lisp</value>
+     <value type="QString">ROS_DISTRO=indigo</value>
+     <value type="QString">ROS_ETC_DIR=/opt/ros/indigo/etc/ros</value>
+     <value type="QString">ROS_MASTER_URI=http://localhost:11311</value>
      <value type="QString">ROS_PACKAGE_PATH=/home/quy/catkin_ws/src:/opt/ros/indigo/share:/opt/ros/indigo/stacks</value>
-     <value type="QString">SHLVL=3</value>
+     <value type="QString">ROS_ROOT=/opt/ros/indigo/share/ros</value>
+     <value type="QString">SHLVL=2</value>
+     <value type="QString">TURTLEBOT_3D_SENSOR=asus_xtion_pro</value>
+     <value type="QString">TURTLEBOT_BASE=kobuki</value>
+     <value type="QString">TURTLEBOT_BATTERY=/sys/class/power_supply/BAT0</value>
+     <value type="QString">TURTLEBOT_GAZEBO_MAP_FILE=/opt/ros/indigo/share/turtlebot_gazebo/maps/playground.yaml</value>
+     <value type="QString">TURTLEBOT_GAZEBO_WORLD_FILE=/opt/ros/indigo/share/turtlebot_gazebo/worlds/playground.world</value>
+     <value type="QString">TURTLEBOT_INTERACTIONS_LIST=[turtlebot_bringup/admin.interactions, turtlebot_bringup/documentation.interactions, turtlebot_bringup/pairing.interactions, turtlebot_bringup/visualisation.interactions]</value>
+     <value type="QString">TURTLEBOT_MAP_FILE=/opt/ros/indigo/share/turtlebot_navigation/maps/willow-2010-02-18-0.10.yaml</value>
+     <value type="QString">TURTLEBOT_NAME=turtlebot</value>
+     <value type="QString">TURTLEBOT_RAPP_PACKAGE_BLACKLIST=[]</value>
+     <value type="QString">TURTLEBOT_RAPP_PACKAGE_WHITELIST=[rocon_apps, turtlebot_rapps]</value>
+     <value type="QString">TURTLEBOT_SERIAL_PORT=/dev/kobuki</value>
+     <value type="QString">TURTLEBOT_SIMULATION=false</value>
+     <value type="QString">TURTLEBOT_STACKS=hexagons</value>
+     <value type="QString">TURTLEBOT_TYPE=turtlebot</value>
      <value type="QString">_=/usr/bin/env</value>
     </valuelist>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Default</value>
@@ -409,7 +418,17 @@
      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Run</value>
      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ROSProjectManager.ROSRunConfiguration.RunStepList</value>
-     <value type="int" key="ProjectExplorer.RunStepList.StepsCount">0</value>
+     <valuemap type="QVariantMap" key="ProjectExplorer.RunStepList.Step.0">
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName"></value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ROSProjectManager.ROSRunStep</value>
+      <value type="bool" key="ProjectExplorer.RunStep.Enabled">true</value>
+      <value type="QString" key="ROSProjectManager.ROSGenericStep.Arguments"></value>
+      <value type="QString" key="ROSProjectManager.ROSGenericStep.Command">rosrun</value>
+      <value type="QString" key="ROSProjectManager.ROSGenericStep.Package">dem_wall_following</value>
+      <value type="QString" key="ROSProjectManager.ROSGenericStep.Target"></value>
+     </valuemap>
+     <value type="int" key="ProjectExplorer.RunStepList.StepsCount">1</value>
     </valuemap>
     <value type="uint" key="RunConfiguration.QmlDebugServerPort">3768</value>
     <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
