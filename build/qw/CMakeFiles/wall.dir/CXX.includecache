@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/quy/catkin_ws/src/qw/include/node_wallFollowing.h
+ros/ros.h
+/home/quy/catkin_ws/src/qw/include/ros/ros.h
+sensor_msgs/LaserScan.h
+/home/quy/catkin_ws/src/qw/include/sensor_msgs/LaserScan.h
+geometry_msgs/Twist.h
+/home/quy/catkin_ws/src/qw/include/geometry_msgs/Twist.h
+
+/home/quy/catkin_ws/src/qw/src/wallFollowing.cpp
+node_wallFollowing.h
+/home/quy/catkin_ws/src/qw/src/node_wallFollowing.h
+

@@ -5,22 +5,34 @@
 #define PI 3.141592
 
 
-NodeWallFollowing::NodeWallFollowing(ros::Publisher pub, double wallDist, double maxSp, int dir, double pr, double di, double an)
+NodeWallFollowing::NodeWallFollowing(
+                                      double wallDistance, // Desired distance from the wall.
+                                      double e,            // Difference between desired distance from the wall and actual distance.
+                                      double diffE,     // Derivative element for PD controller;
+                                      double maxSpeed,     // Maximum speed of robot.
+                                      double P,            // k_P Constant for PD controller.
+                                      double D,            // k_D Constant for PD controller.
+                                      double angleCoef,    // Coefficient for P controller.
+                                      int direction,      // 1 for wall on the right side of the robot (-1 for the left one).
+                                      double angleMin,     // Angle, at which was measured the shortest distance.
+                                      double distFront,    // Distance, measured by ranger in front of robot.
+                                      ros::Publisher pubMessage)
 {
-  wallDistance = wallDist;
-  maxSpeed = maxSp;
-  direction = dir;
-  P = pr;
-  D = di;
-  angleCoef = an;
-  e = 0;
-  angleMin = 0;  //angle, at which was measured the shortest distance
-  pubMessage = pub;
+  this->wallDistance = wallDistance;
+  this->e = e;
+  this->diffE = diffE;
+  this->P = p;
+  this->D;
+  this->angleCoef= angleCoef;
+  this->direction = direction;
+  this->angleMin = angleMin;
+  this->distFront = distFront;
+  this->pubMessage = pubMessage;
 }
 
-//NodeWallFollowing::~NodeWallFollowing()
-//{
-//}
+NodeWallFollowing::~NodeWallFollowing()
+{
+}
 
 //Publisher
 void NodeWallFollowing::publishMessage()

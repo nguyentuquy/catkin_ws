@@ -67,7 +67,7 @@ set(qw_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(qw_SOURCE_PREFIX /home/quy/catkin_ws/src/qw)
+  set(qw_SOURCE_PREFIX /home/quy/catkin_ws/src/Collision)
   set(qw_DEVEL_PREFIX /home/quy/catkin_ws/devel)
   set(qw_INSTALL_PREFIX "")
   set(qw_PREFIX ${qw_DEVEL_PREFIX})
@@ -103,13 +103,13 @@ if(NOT " " STREQUAL " ")
         message(FATAL_ERROR "Project 'qw' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  Ask the maintainer 'quy <quy@todo.todo>' to fix it.")
       endif()
     else()
-      message(FATAL_ERROR "Project 'qw' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/quy/catkin_ws/src/qw/${idir}'.  Ask the maintainer 'quy <quy@todo.todo>' to fix it.")
+      message(FATAL_ERROR "Project 'qw' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/quy/catkin_ws/src/Collision/${idir}'.  Ask the maintainer 'quy <quy@todo.todo>' to fix it.")
     endif()
     _list_append_unique(qw_INCLUDE_DIRS ${include})
   endforeach()
 endif()
 
-set(libraries "")
+set(libraries "move")
 foreach(library ${libraries})
   # keep build configuration keywords, target names and absolute libraries as-is
   if("${library}" MATCHES "^(debug|optimized|general)$")
@@ -153,7 +153,7 @@ foreach(t ${qw_EXPORTED_TARGETS})
   endif()
 endforeach()
 
-set(depends "")
+set(depends "roscpp;geometry_msgs")
 foreach(depend ${depends})
   string(REPLACE " " ";" depend_list ${depend})
   # the package name of the dependency must be kept in a unique variable so that it is not overwritten in recursive calls

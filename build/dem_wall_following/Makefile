@@ -237,48 +237,6 @@ rosgraph_msgs_generate_messages_py/fast:
 .PHONY : rosgraph_msgs_generate_messages_py/fast
 
 # Convenience name for target.
-dem_wall_following/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule:
-	cd /home/quy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dem_wall_following/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
-.PHONY : dem_wall_following/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_cpp: dem_wall_following/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
-.PHONY : std_msgs_generate_messages_cpp
-
-# fast build rule for target.
-std_msgs_generate_messages_cpp/fast:
-	cd /home/quy/catkin_ws/build && $(MAKE) -f dem_wall_following/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make dem_wall_following/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
-.PHONY : std_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-dem_wall_following/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule:
-	cd /home/quy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dem_wall_following/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-.PHONY : dem_wall_following/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_lisp: dem_wall_following/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-.PHONY : std_msgs_generate_messages_lisp
-
-# fast build rule for target.
-std_msgs_generate_messages_lisp/fast:
-	cd /home/quy/catkin_ws/build && $(MAKE) -f dem_wall_following/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make dem_wall_following/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
-.PHONY : std_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-dem_wall_following/CMakeFiles/std_msgs_generate_messages_py.dir/rule:
-	cd /home/quy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dem_wall_following/CMakeFiles/std_msgs_generate_messages_py.dir/rule
-.PHONY : dem_wall_following/CMakeFiles/std_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_py: dem_wall_following/CMakeFiles/std_msgs_generate_messages_py.dir/rule
-.PHONY : std_msgs_generate_messages_py
-
-# fast build rule for target.
-std_msgs_generate_messages_py/fast:
-	cd /home/quy/catkin_ws/build && $(MAKE) -f dem_wall_following/CMakeFiles/std_msgs_generate_messages_py.dir/build.make dem_wall_following/CMakeFiles/std_msgs_generate_messages_py.dir/build
-.PHONY : std_msgs_generate_messages_py/fast
-
-# Convenience name for target.
 dem_wall_following/CMakeFiles/wallFollowing.dir/rule:
 	cd /home/quy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dem_wall_following/CMakeFiles/wallFollowing.dir/rule
 .PHONY : dem_wall_following/CMakeFiles/wallFollowing.dir/rule
@@ -292,29 +250,29 @@ wallFollowing/fast:
 	cd /home/quy/catkin_ws/build && $(MAKE) -f dem_wall_following/CMakeFiles/wallFollowing.dir/build.make dem_wall_following/CMakeFiles/wallFollowing.dir/build
 .PHONY : wallFollowing/fast
 
-src/node_wallFollowing.o: src/node_wallFollowing.cpp.o
-.PHONY : src/node_wallFollowing.o
+src/wallFollowing.o: src/wallFollowing.cpp.o
+.PHONY : src/wallFollowing.o
 
 # target to build an object file
-src/node_wallFollowing.cpp.o:
-	cd /home/quy/catkin_ws/build && $(MAKE) -f dem_wall_following/CMakeFiles/wallFollowing.dir/build.make dem_wall_following/CMakeFiles/wallFollowing.dir/src/node_wallFollowing.cpp.o
-.PHONY : src/node_wallFollowing.cpp.o
+src/wallFollowing.cpp.o:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f dem_wall_following/CMakeFiles/wallFollowing.dir/build.make dem_wall_following/CMakeFiles/wallFollowing.dir/src/wallFollowing.cpp.o
+.PHONY : src/wallFollowing.cpp.o
 
-src/node_wallFollowing.i: src/node_wallFollowing.cpp.i
-.PHONY : src/node_wallFollowing.i
+src/wallFollowing.i: src/wallFollowing.cpp.i
+.PHONY : src/wallFollowing.i
 
 # target to preprocess a source file
-src/node_wallFollowing.cpp.i:
-	cd /home/quy/catkin_ws/build && $(MAKE) -f dem_wall_following/CMakeFiles/wallFollowing.dir/build.make dem_wall_following/CMakeFiles/wallFollowing.dir/src/node_wallFollowing.cpp.i
-.PHONY : src/node_wallFollowing.cpp.i
+src/wallFollowing.cpp.i:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f dem_wall_following/CMakeFiles/wallFollowing.dir/build.make dem_wall_following/CMakeFiles/wallFollowing.dir/src/wallFollowing.cpp.i
+.PHONY : src/wallFollowing.cpp.i
 
-src/node_wallFollowing.s: src/node_wallFollowing.cpp.s
-.PHONY : src/node_wallFollowing.s
+src/wallFollowing.s: src/wallFollowing.cpp.s
+.PHONY : src/wallFollowing.s
 
 # target to generate assembly for a file
-src/node_wallFollowing.cpp.s:
-	cd /home/quy/catkin_ws/build && $(MAKE) -f dem_wall_following/CMakeFiles/wallFollowing.dir/build.make dem_wall_following/CMakeFiles/wallFollowing.dir/src/node_wallFollowing.cpp.s
-.PHONY : src/node_wallFollowing.cpp.s
+src/wallFollowing.cpp.s:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f dem_wall_following/CMakeFiles/wallFollowing.dir/build.make dem_wall_following/CMakeFiles/wallFollowing.dir/src/wallFollowing.cpp.s
+.PHONY : src/wallFollowing.cpp.s
 
 # Help Target
 help:
@@ -334,14 +292,11 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_cpp"
 	@echo "... rosgraph_msgs_generate_messages_lisp"
 	@echo "... rosgraph_msgs_generate_messages_py"
-	@echo "... std_msgs_generate_messages_cpp"
-	@echo "... std_msgs_generate_messages_lisp"
-	@echo "... std_msgs_generate_messages_py"
 	@echo "... test"
 	@echo "... wallFollowing"
-	@echo "... src/node_wallFollowing.o"
-	@echo "... src/node_wallFollowing.i"
-	@echo "... src/node_wallFollowing.s"
+	@echo "... src/wallFollowing.o"
+	@echo "... src/wallFollowing.i"
+	@echo "... src/wallFollowing.s"
 .PHONY : help
 
 

@@ -153,48 +153,6 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-hector_turtlebot/hector_turtlebot_scan_filter/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule:
-	cd /home/quy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 hector_turtlebot/hector_turtlebot_scan_filter/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
-.PHONY : hector_turtlebot/hector_turtlebot_scan_filter/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_cpp: hector_turtlebot/hector_turtlebot_scan_filter/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
-.PHONY : geometry_msgs_generate_messages_cpp
-
-# fast build rule for target.
-geometry_msgs_generate_messages_cpp/fast:
-	cd /home/quy/catkin_ws/build && $(MAKE) -f hector_turtlebot/hector_turtlebot_scan_filter/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make hector_turtlebot/hector_turtlebot_scan_filter/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
-.PHONY : geometry_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-hector_turtlebot/hector_turtlebot_scan_filter/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule:
-	cd /home/quy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 hector_turtlebot/hector_turtlebot_scan_filter/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
-.PHONY : hector_turtlebot/hector_turtlebot_scan_filter/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_lisp: hector_turtlebot/hector_turtlebot_scan_filter/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
-.PHONY : geometry_msgs_generate_messages_lisp
-
-# fast build rule for target.
-geometry_msgs_generate_messages_lisp/fast:
-	cd /home/quy/catkin_ws/build && $(MAKE) -f hector_turtlebot/hector_turtlebot_scan_filter/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make hector_turtlebot/hector_turtlebot_scan_filter/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
-.PHONY : geometry_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-hector_turtlebot/hector_turtlebot_scan_filter/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule:
-	cd /home/quy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 hector_turtlebot/hector_turtlebot_scan_filter/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
-.PHONY : hector_turtlebot/hector_turtlebot_scan_filter/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_py: hector_turtlebot/hector_turtlebot_scan_filter/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
-.PHONY : geometry_msgs_generate_messages_py
-
-# fast build rule for target.
-geometry_msgs_generate_messages_py/fast:
-	cd /home/quy/catkin_ws/build && $(MAKE) -f hector_turtlebot/hector_turtlebot_scan_filter/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make hector_turtlebot/hector_turtlebot_scan_filter/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
-.PHONY : geometry_msgs_generate_messages_py/fast
-
-# Convenience name for target.
 hector_turtlebot/hector_turtlebot_scan_filter/CMakeFiles/hector_turtlebot_scan_filter.dir/rule:
 	cd /home/quy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 hector_turtlebot/hector_turtlebot_scan_filter/CMakeFiles/hector_turtlebot_scan_filter.dir/rule
 .PHONY : hector_turtlebot/hector_turtlebot_scan_filter/CMakeFiles/hector_turtlebot_scan_filter.dir/rule
@@ -281,9 +239,6 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
-	@echo "... geometry_msgs_generate_messages_cpp"
-	@echo "... geometry_msgs_generate_messages_lisp"
-	@echo "... geometry_msgs_generate_messages_py"
 	@echo "... hector_turtlebot_scan_filter"
 	@echo "... install"
 	@echo "... install/local"

@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/wall.dir/src/wallFollowing.cpp.o  -o /home/quy/catkin_ws/devel/lib/qw/wall -rdynamic 

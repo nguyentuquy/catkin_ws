@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/quy/catkin_ws/src/dem_wall_following/src/node_wallFollowing.cpp" "/home/quy/catkin_ws/build/dem_wall_following/CMakeFiles/wallFollowing.dir/src/node_wallFollowing.cpp.o"
+  "/home/quy/catkin_ws/src/dem_wall_following/src/wallFollowing.cpp" "/home/quy/catkin_ws/build/dem_wall_following/CMakeFiles/wallFollowing.dir/src/wallFollowing.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -21,7 +21,6 @@ SET(CMAKE_TARGET_LINKED_INFO_FILES
 
 # The include file search paths:
 SET(CMAKE_C_TARGET_INCLUDE_PATH
-  "/home/quy/catkin_ws/src/dem_wall_following/include"
   "/opt/ros/indigo/include"
   )
 SET(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})

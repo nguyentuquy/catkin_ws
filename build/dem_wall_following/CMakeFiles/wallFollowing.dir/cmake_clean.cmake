@@ -1,5 +1,5 @@
 FILE(REMOVE_RECURSE
-  "CMakeFiles/wallFollowing.dir/src/node_wallFollowing.cpp.o"
+  "CMakeFiles/wallFollowing.dir/src/wallFollowing.cpp.o"
   "wallFollowing.pdb"
   "wallFollowing"
 )

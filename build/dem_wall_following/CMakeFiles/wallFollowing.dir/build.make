@@ -52,37 +52,37 @@ include dem_wall_following/CMakeFiles/wallFollowing.dir/progress.make
 # Include the compile flags for this target's objects.
 include dem_wall_following/CMakeFiles/wallFollowing.dir/flags.make
 
-dem_wall_following/CMakeFiles/wallFollowing.dir/src/node_wallFollowing.cpp.o: dem_wall_following/CMakeFiles/wallFollowing.dir/flags.make
-dem_wall_following/CMakeFiles/wallFollowing.dir/src/node_wallFollowing.cpp.o: /home/quy/catkin_ws/src/dem_wall_following/src/node_wallFollowing.cpp
+dem_wall_following/CMakeFiles/wallFollowing.dir/src/wallFollowing.cpp.o: dem_wall_following/CMakeFiles/wallFollowing.dir/flags.make
+dem_wall_following/CMakeFiles/wallFollowing.dir/src/wallFollowing.cpp.o: /home/quy/catkin_ws/src/dem_wall_following/src/wallFollowing.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/quy/catkin_ws/build/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object dem_wall_following/CMakeFiles/wallFollowing.dir/src/node_wallFollowing.cpp.o"
-	cd /home/quy/catkin_ws/build/dem_wall_following && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wallFollowing.dir/src/node_wallFollowing.cpp.o -c /home/quy/catkin_ws/src/dem_wall_following/src/node_wallFollowing.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object dem_wall_following/CMakeFiles/wallFollowing.dir/src/wallFollowing.cpp.o"
+	cd /home/quy/catkin_ws/build/dem_wall_following && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wallFollowing.dir/src/wallFollowing.cpp.o -c /home/quy/catkin_ws/src/dem_wall_following/src/wallFollowing.cpp
 
-dem_wall_following/CMakeFiles/wallFollowing.dir/src/node_wallFollowing.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wallFollowing.dir/src/node_wallFollowing.cpp.i"
-	cd /home/quy/catkin_ws/build/dem_wall_following && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/quy/catkin_ws/src/dem_wall_following/src/node_wallFollowing.cpp > CMakeFiles/wallFollowing.dir/src/node_wallFollowing.cpp.i
+dem_wall_following/CMakeFiles/wallFollowing.dir/src/wallFollowing.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wallFollowing.dir/src/wallFollowing.cpp.i"
+	cd /home/quy/catkin_ws/build/dem_wall_following && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/quy/catkin_ws/src/dem_wall_following/src/wallFollowing.cpp > CMakeFiles/wallFollowing.dir/src/wallFollowing.cpp.i
 
-dem_wall_following/CMakeFiles/wallFollowing.dir/src/node_wallFollowing.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wallFollowing.dir/src/node_wallFollowing.cpp.s"
-	cd /home/quy/catkin_ws/build/dem_wall_following && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/quy/catkin_ws/src/dem_wall_following/src/node_wallFollowing.cpp -o CMakeFiles/wallFollowing.dir/src/node_wallFollowing.cpp.s
+dem_wall_following/CMakeFiles/wallFollowing.dir/src/wallFollowing.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wallFollowing.dir/src/wallFollowing.cpp.s"
+	cd /home/quy/catkin_ws/build/dem_wall_following && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/quy/catkin_ws/src/dem_wall_following/src/wallFollowing.cpp -o CMakeFiles/wallFollowing.dir/src/wallFollowing.cpp.s
 
-dem_wall_following/CMakeFiles/wallFollowing.dir/src/node_wallFollowing.cpp.o.requires:
-.PHONY : dem_wall_following/CMakeFiles/wallFollowing.dir/src/node_wallFollowing.cpp.o.requires
+dem_wall_following/CMakeFiles/wallFollowing.dir/src/wallFollowing.cpp.o.requires:
+.PHONY : dem_wall_following/CMakeFiles/wallFollowing.dir/src/wallFollowing.cpp.o.requires
 
-dem_wall_following/CMakeFiles/wallFollowing.dir/src/node_wallFollowing.cpp.o.provides: dem_wall_following/CMakeFiles/wallFollowing.dir/src/node_wallFollowing.cpp.o.requires
-	$(MAKE) -f dem_wall_following/CMakeFiles/wallFollowing.dir/build.make dem_wall_following/CMakeFiles/wallFollowing.dir/src/node_wallFollowing.cpp.o.provides.build
-.PHONY : dem_wall_following/CMakeFiles/wallFollowing.dir/src/node_wallFollowing.cpp.o.provides
+dem_wall_following/CMakeFiles/wallFollowing.dir/src/wallFollowing.cpp.o.provides: dem_wall_following/CMakeFiles/wallFollowing.dir/src/wallFollowing.cpp.o.requires
+	$(MAKE) -f dem_wall_following/CMakeFiles/wallFollowing.dir/build.make dem_wall_following/CMakeFiles/wallFollowing.dir/src/wallFollowing.cpp.o.provides.build
+.PHONY : dem_wall_following/CMakeFiles/wallFollowing.dir/src/wallFollowing.cpp.o.provides
 
-dem_wall_following/CMakeFiles/wallFollowing.dir/src/node_wallFollowing.cpp.o.provides.build: dem_wall_following/CMakeFiles/wallFollowing.dir/src/node_wallFollowing.cpp.o
+dem_wall_following/CMakeFiles/wallFollowing.dir/src/wallFollowing.cpp.o.provides.build: dem_wall_following/CMakeFiles/wallFollowing.dir/src/wallFollowing.cpp.o
 
 # Object files for target wallFollowing
 wallFollowing_OBJECTS = \
-"CMakeFiles/wallFollowing.dir/src/node_wallFollowing.cpp.o"
+"CMakeFiles/wallFollowing.dir/src/wallFollowing.cpp.o"
 
 # External object files for target wallFollowing
 wallFollowing_EXTERNAL_OBJECTS =
 
-dem_wall_following/wallFollowing: dem_wall_following/CMakeFiles/wallFollowing.dir/src/node_wallFollowing.cpp.o
+dem_wall_following/wallFollowing: dem_wall_following/CMakeFiles/wallFollowing.dir/src/wallFollowing.cpp.o
 dem_wall_following/wallFollowing: dem_wall_following/CMakeFiles/wallFollowing.dir/build.make
 dem_wall_following/wallFollowing: /opt/ros/indigo/lib/libroscpp.so
 dem_wall_following/wallFollowing: /usr/lib/x86_64-linux-gnu/libboost_signals.so
@@ -109,7 +109,7 @@ dem_wall_following/wallFollowing: dem_wall_following/CMakeFiles/wallFollowing.di
 dem_wall_following/CMakeFiles/wallFollowing.dir/build: dem_wall_following/wallFollowing
 .PHONY : dem_wall_following/CMakeFiles/wallFollowing.dir/build
 
-dem_wall_following/CMakeFiles/wallFollowing.dir/requires: dem_wall_following/CMakeFiles/wallFollowing.dir/src/node_wallFollowing.cpp.o.requires
+dem_wall_following/CMakeFiles/wallFollowing.dir/requires: dem_wall_following/CMakeFiles/wallFollowing.dir/src/wallFollowing.cpp.o.requires
 .PHONY : dem_wall_following/CMakeFiles/wallFollowing.dir/requires
 
 dem_wall_following/CMakeFiles/wallFollowing.dir/clean:
