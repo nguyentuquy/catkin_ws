@@ -1,18 +1,47 @@
 #include "node_wallFollowing.h"
+#include <iostream>
+#include "std_msgs/String.h"
+#include <sstream>
+using namespace std;
 
-#define SUBSCRIBER_BUFFER_SIZE 1  // Size of buffer for subscriber.
-#define PUBLISHER_BUFFER_SIZE 1000  // Size of buffer for publisher.
-
-//#define WALL_DISTANCE 0.13
-//#define MAX_SPEED 0.1
-//#define P 10    // Proportional constant for controller
-//#define D 5     // Derivative constant for controller
-//#define ANGLE_COEF 1    // Proportional constant for angle controller
-//#define DIRECTION 1 // 1 for wall on the left side of the robot (-1 for the right side).
+#define WALL_DISTANCE 0.13
+#define MAX_SPEED 0.1
+#define P 10    // Proportional constant for controller
+#define D 5     // Derivative constant for controller
+#define ANGLE_COEF 1    // Proportional constant for angle controller
+#define DIRECTION 1 // 1 for wall on the left side of the robot (-1 for the right side).
 // #define PUBLISHER_TOPIC "/syros/base_cmd_vel"
-//#define PUBLISHER_TOPIC "/cmd_vel"
-// #define SUBSCRIBER_TOPIC "/syros/laser_laser"
-//#define SUBSCRIBER_TOPIC "/base_scan"
+
+void chatterCallback(const sensor_msgs::LaserScan::ConstPtr& msg)
+{
+  int size = msg->ranges.size();
+
+  ROS_INFO("size : %d", size);
+
+//  //Variables whith index of highest and lowest value in array.
+//  int minIndex = size*(direction+1)/4;
+//  int maxIndex = size*(direction+3)/4;
+
+//  //This cycle goes through array and finds minimum
+//  for(int i = minIndex; i < maxIndex; i++)
+//  {
+//    if (msg->ranges[i] < msg->ranges[i] && msg->ranges[i] > 0.0){
+//      minIndex = i;
+//    }
+//  }
+
+//  //Calculation of angles from indexes and storing data to class variables.
+//  angleMin = (minIndex-size/2)*msg->angle_increment;
+//  double distMin;
+//  distMin = msg->ranges[minIndex];
+//  distFront = msg->ranges[size/2];
+//  diffE = (distMin - wallDistance) - PI;
+//  e = distMin - wallDistance;
+
+//  //Invoking method for publishing message
+//  publishMessage();
+}
+
 
 int main(int argc, char **argv)
 {
@@ -21,40 +50,38 @@ int main(int argc, char **argv)
   ros::NodeHandle n;
 
   //Creating publisher
-  ros::Publisher pubMessage = n.advertise<geometry_msgs::Twist>("/cmd_vel", PUBLISHER_BUFFER_SIZE);
-
-  //Creating object, which stores data from sensors and has methods for
-  //publishing and subscribing
-  //NodeWallFollowing *nodeWallFollowing = new NodeWallFollowing(pubMessage, WALL_DISTANCE, MAX_SPEED, DIRECTION, P, D, 1);
-
-  //variables
-    double wallDistance = 0.13; // Desired distance from the wall.
-    double e = 0;            // Difference between desired distance from the wall and actual distance.
-    double diffE = 0;     // Derivative element for PD controller;
-    double maxSpeed = 0.1;     // Maximum speed of robot.
-    double P = 10;            // k_P Constant for PD controller.
-    double D = 5;            // k_D Constant for PD controller.
-    double angleCoef = 1;    // Coefficient for P controller.
-    int direction = 1;      // 1 for wall on the right side of the robot (-1 for the left one).
-    double angleMin = 0;     // Angle, at which was measured the shortest distance.
-    double distFront = 0;    // Distance, measured by ranger in front of robot.
-
-   NodeWallFollowing *nodeWallFollowing = new NodeWallFollowing(//variables
-                                                                wallDistance, // Desired distance from the wall.
-                                                                e,            // Difference between desired distance from the wall and actual distance.
-                                                                diffE,        // Derivative element for PD controller;
-                                                                maxSpeed,     // Maximum speed of robot.
-                                                                P,            // k_P Constant for PD controller.
-                                                                D,            // k_D Constant for PD controller.
-                                                                angleCoef,    // Coefficient for P controller.
-                                                                direction,      // 1 for wall on the right side of the robot (-1 for the left one).
-                                                                angleMin,     // Angle, at which was measured the shortest distance.
-                                                                distFront,    // Distance, measured by ranger in front of robot.
-                                                                pubMessage);
+  ros::Publisher pubMessage = n.advertise<geometry_msgs::Twist>("/cmd_vel", 1000);
 
   //Creating subscriber and publisher
-  ros::Subscriber sub = n.subscribe("/syros/laser_laser", SUBSCRIBER_BUFFER_SIZE, &NodeWallFollowing::messageCallback, nodeWallFollowing);
-  //ros::spin();
+  ros::Subscriber sub = n.subscribe("/base_scan", 1000, chatterCallback);
 
-  return 1;
+  ros::Rate loop_rate(10);
+
+  int count =0;
+  while (ros::ok())
+    {
+//      //preparing message
+//      geometry_msgs::Twist msg;
+
+//      msg.angular.z = 0.5 ;//direction*(P*e + D*diffE) + angleCoef * (angleMin - PI*direction/2);    //PD controller
+
+//      if (distFront < 1.0){
+//        msg.linear.x = 0;
+//      }
+//      else if (distFront < 1.0 * 2){
+//        msg.linear.x = 0.5*maxSpeed;
+//      }
+//      else if (fabs(angleMin)>1.75){
+//        msg.linear.x = 0.4*maxSpeed;
+//      }
+//      else {
+//        msg.linear.x = maxSpeed;
+//      }
+
+//      //publishing message
+//      pubMessage.publish(msg);
+    }
+
+  ros::spin();
+  return 0;
 }

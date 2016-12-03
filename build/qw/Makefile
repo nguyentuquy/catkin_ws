@@ -153,42 +153,42 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-qw/CMakeFiles/wall.dir/rule:
-	cd /home/quy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 qw/CMakeFiles/wall.dir/rule
-.PHONY : qw/CMakeFiles/wall.dir/rule
+qw/CMakeFiles/move_robot_keyboard.dir/rule:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 qw/CMakeFiles/move_robot_keyboard.dir/rule
+.PHONY : qw/CMakeFiles/move_robot_keyboard.dir/rule
 
 # Convenience name for target.
-wall: qw/CMakeFiles/wall.dir/rule
-.PHONY : wall
+move_robot_keyboard: qw/CMakeFiles/move_robot_keyboard.dir/rule
+.PHONY : move_robot_keyboard
 
 # fast build rule for target.
-wall/fast:
-	cd /home/quy/catkin_ws/build && $(MAKE) -f qw/CMakeFiles/wall.dir/build.make qw/CMakeFiles/wall.dir/build
-.PHONY : wall/fast
+move_robot_keyboard/fast:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f qw/CMakeFiles/move_robot_keyboard.dir/build.make qw/CMakeFiles/move_robot_keyboard.dir/build
+.PHONY : move_robot_keyboard/fast
 
-src/wallFollowing.o: src/wallFollowing.cpp.o
-.PHONY : src/wallFollowing.o
+src/move_robot_keyboard.o: src/move_robot_keyboard.cpp.o
+.PHONY : src/move_robot_keyboard.o
 
 # target to build an object file
-src/wallFollowing.cpp.o:
-	cd /home/quy/catkin_ws/build && $(MAKE) -f qw/CMakeFiles/wall.dir/build.make qw/CMakeFiles/wall.dir/src/wallFollowing.cpp.o
-.PHONY : src/wallFollowing.cpp.o
+src/move_robot_keyboard.cpp.o:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f qw/CMakeFiles/move_robot_keyboard.dir/build.make qw/CMakeFiles/move_robot_keyboard.dir/src/move_robot_keyboard.cpp.o
+.PHONY : src/move_robot_keyboard.cpp.o
 
-src/wallFollowing.i: src/wallFollowing.cpp.i
-.PHONY : src/wallFollowing.i
+src/move_robot_keyboard.i: src/move_robot_keyboard.cpp.i
+.PHONY : src/move_robot_keyboard.i
 
 # target to preprocess a source file
-src/wallFollowing.cpp.i:
-	cd /home/quy/catkin_ws/build && $(MAKE) -f qw/CMakeFiles/wall.dir/build.make qw/CMakeFiles/wall.dir/src/wallFollowing.cpp.i
-.PHONY : src/wallFollowing.cpp.i
+src/move_robot_keyboard.cpp.i:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f qw/CMakeFiles/move_robot_keyboard.dir/build.make qw/CMakeFiles/move_robot_keyboard.dir/src/move_robot_keyboard.cpp.i
+.PHONY : src/move_robot_keyboard.cpp.i
 
-src/wallFollowing.s: src/wallFollowing.cpp.s
-.PHONY : src/wallFollowing.s
+src/move_robot_keyboard.s: src/move_robot_keyboard.cpp.s
+.PHONY : src/move_robot_keyboard.s
 
 # target to generate assembly for a file
-src/wallFollowing.cpp.s:
-	cd /home/quy/catkin_ws/build && $(MAKE) -f qw/CMakeFiles/wall.dir/build.make qw/CMakeFiles/wall.dir/src/wallFollowing.cpp.s
-.PHONY : src/wallFollowing.cpp.s
+src/move_robot_keyboard.cpp.s:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f qw/CMakeFiles/move_robot_keyboard.dir/build.make qw/CMakeFiles/move_robot_keyboard.dir/src/move_robot_keyboard.cpp.s
+.PHONY : src/move_robot_keyboard.cpp.s
 
 # Help Target
 help:
@@ -201,12 +201,12 @@ help:
 	@echo "... install/local"
 	@echo "... install/strip"
 	@echo "... list_install_components"
+	@echo "... move_robot_keyboard"
 	@echo "... rebuild_cache"
 	@echo "... test"
-	@echo "... wall"
-	@echo "... src/wallFollowing.o"
-	@echo "... src/wallFollowing.i"
-	@echo "... src/wallFollowing.s"
+	@echo "... src/move_robot_keyboard.o"
+	@echo "... src/move_robot_keyboard.i"
+	@echo "... src/move_robot_keyboard.s"
 .PHONY : help
 
 

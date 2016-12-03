@@ -153,6 +153,90 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+dem_wall_following/CMakeFiles/actionlib_generate_messages_cpp.dir/rule:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dem_wall_following/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
+.PHONY : dem_wall_following/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+actionlib_generate_messages_cpp: dem_wall_following/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
+.PHONY : actionlib_generate_messages_cpp
+
+# fast build rule for target.
+actionlib_generate_messages_cpp/fast:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f dem_wall_following/CMakeFiles/actionlib_generate_messages_cpp.dir/build.make dem_wall_following/CMakeFiles/actionlib_generate_messages_cpp.dir/build
+.PHONY : actionlib_generate_messages_cpp/fast
+
+# Convenience name for target.
+dem_wall_following/CMakeFiles/actionlib_generate_messages_lisp.dir/rule:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dem_wall_following/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
+.PHONY : dem_wall_following/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+actionlib_generate_messages_lisp: dem_wall_following/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
+.PHONY : actionlib_generate_messages_lisp
+
+# fast build rule for target.
+actionlib_generate_messages_lisp/fast:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f dem_wall_following/CMakeFiles/actionlib_generate_messages_lisp.dir/build.make dem_wall_following/CMakeFiles/actionlib_generate_messages_lisp.dir/build
+.PHONY : actionlib_generate_messages_lisp/fast
+
+# Convenience name for target.
+dem_wall_following/CMakeFiles/actionlib_generate_messages_py.dir/rule:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dem_wall_following/CMakeFiles/actionlib_generate_messages_py.dir/rule
+.PHONY : dem_wall_following/CMakeFiles/actionlib_generate_messages_py.dir/rule
+
+# Convenience name for target.
+actionlib_generate_messages_py: dem_wall_following/CMakeFiles/actionlib_generate_messages_py.dir/rule
+.PHONY : actionlib_generate_messages_py
+
+# fast build rule for target.
+actionlib_generate_messages_py/fast:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f dem_wall_following/CMakeFiles/actionlib_generate_messages_py.dir/build.make dem_wall_following/CMakeFiles/actionlib_generate_messages_py.dir/build
+.PHONY : actionlib_generate_messages_py/fast
+
+# Convenience name for target.
+dem_wall_following/CMakeFiles/listener.dir/rule:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dem_wall_following/CMakeFiles/listener.dir/rule
+.PHONY : dem_wall_following/CMakeFiles/listener.dir/rule
+
+# Convenience name for target.
+listener: dem_wall_following/CMakeFiles/listener.dir/rule
+.PHONY : listener
+
+# fast build rule for target.
+listener/fast:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f dem_wall_following/CMakeFiles/listener.dir/build.make dem_wall_following/CMakeFiles/listener.dir/build
+.PHONY : listener/fast
+
+# Convenience name for target.
+dem_wall_following/CMakeFiles/move.dir/rule:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dem_wall_following/CMakeFiles/move.dir/rule
+.PHONY : dem_wall_following/CMakeFiles/move.dir/rule
+
+# Convenience name for target.
+move: dem_wall_following/CMakeFiles/move.dir/rule
+.PHONY : move
+
+# fast build rule for target.
+move/fast:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f dem_wall_following/CMakeFiles/move.dir/build.make dem_wall_following/CMakeFiles/move.dir/build
+.PHONY : move/fast
+
+# Convenience name for target.
+dem_wall_following/CMakeFiles/pub_kfc.dir/rule:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dem_wall_following/CMakeFiles/pub_kfc.dir/rule
+.PHONY : dem_wall_following/CMakeFiles/pub_kfc.dir/rule
+
+# Convenience name for target.
+pub_kfc: dem_wall_following/CMakeFiles/pub_kfc.dir/rule
+.PHONY : pub_kfc
+
+# fast build rule for target.
+pub_kfc/fast:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f dem_wall_following/CMakeFiles/pub_kfc.dir/build.make dem_wall_following/CMakeFiles/pub_kfc.dir/build
+.PHONY : pub_kfc/fast
+
+# Convenience name for target.
 dem_wall_following/CMakeFiles/roscpp_generate_messages_cpp.dir/rule:
 	cd /home/quy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dem_wall_following/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 .PHONY : dem_wall_following/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
@@ -237,6 +321,160 @@ rosgraph_msgs_generate_messages_py/fast:
 .PHONY : rosgraph_msgs_generate_messages_py/fast
 
 # Convenience name for target.
+dem_wall_following/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dem_wall_following/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
+.PHONY : dem_wall_following/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+sensor_msgs_generate_messages_cpp: dem_wall_following/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
+.PHONY : sensor_msgs_generate_messages_cpp
+
+# fast build rule for target.
+sensor_msgs_generate_messages_cpp/fast:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f dem_wall_following/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make dem_wall_following/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
+.PHONY : sensor_msgs_generate_messages_cpp/fast
+
+# Convenience name for target.
+dem_wall_following/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dem_wall_following/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
+.PHONY : dem_wall_following/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+sensor_msgs_generate_messages_lisp: dem_wall_following/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
+.PHONY : sensor_msgs_generate_messages_lisp
+
+# fast build rule for target.
+sensor_msgs_generate_messages_lisp/fast:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f dem_wall_following/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make dem_wall_following/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
+.PHONY : sensor_msgs_generate_messages_lisp/fast
+
+# Convenience name for target.
+dem_wall_following/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dem_wall_following/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
+.PHONY : dem_wall_following/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+sensor_msgs_generate_messages_py: dem_wall_following/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
+.PHONY : sensor_msgs_generate_messages_py
+
+# fast build rule for target.
+sensor_msgs_generate_messages_py/fast:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f dem_wall_following/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make dem_wall_following/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
+.PHONY : sensor_msgs_generate_messages_py/fast
+
+# Convenience name for target.
+dem_wall_following/CMakeFiles/sub_kfc.dir/rule:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dem_wall_following/CMakeFiles/sub_kfc.dir/rule
+.PHONY : dem_wall_following/CMakeFiles/sub_kfc.dir/rule
+
+# Convenience name for target.
+sub_kfc: dem_wall_following/CMakeFiles/sub_kfc.dir/rule
+.PHONY : sub_kfc
+
+# fast build rule for target.
+sub_kfc/fast:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f dem_wall_following/CMakeFiles/sub_kfc.dir/build.make dem_wall_following/CMakeFiles/sub_kfc.dir/build
+.PHONY : sub_kfc/fast
+
+# Convenience name for target.
+dem_wall_following/CMakeFiles/talker.dir/rule:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dem_wall_following/CMakeFiles/talker.dir/rule
+.PHONY : dem_wall_following/CMakeFiles/talker.dir/rule
+
+# Convenience name for target.
+talker: dem_wall_following/CMakeFiles/talker.dir/rule
+.PHONY : talker
+
+# fast build rule for target.
+talker/fast:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f dem_wall_following/CMakeFiles/talker.dir/build.make dem_wall_following/CMakeFiles/talker.dir/build
+.PHONY : talker/fast
+
+# Convenience name for target.
+dem_wall_following/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dem_wall_following/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
+.PHONY : dem_wall_following/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+tf2_msgs_generate_messages_cpp: dem_wall_following/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
+.PHONY : tf2_msgs_generate_messages_cpp
+
+# fast build rule for target.
+tf2_msgs_generate_messages_cpp/fast:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f dem_wall_following/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build.make dem_wall_following/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build
+.PHONY : tf2_msgs_generate_messages_cpp/fast
+
+# Convenience name for target.
+dem_wall_following/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dem_wall_following/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule
+.PHONY : dem_wall_following/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+tf2_msgs_generate_messages_lisp: dem_wall_following/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule
+.PHONY : tf2_msgs_generate_messages_lisp
+
+# fast build rule for target.
+tf2_msgs_generate_messages_lisp/fast:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f dem_wall_following/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build.make dem_wall_following/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build
+.PHONY : tf2_msgs_generate_messages_lisp/fast
+
+# Convenience name for target.
+dem_wall_following/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dem_wall_following/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
+.PHONY : dem_wall_following/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+tf2_msgs_generate_messages_py: dem_wall_following/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
+.PHONY : tf2_msgs_generate_messages_py
+
+# fast build rule for target.
+tf2_msgs_generate_messages_py/fast:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f dem_wall_following/CMakeFiles/tf2_msgs_generate_messages_py.dir/build.make dem_wall_following/CMakeFiles/tf2_msgs_generate_messages_py.dir/build
+.PHONY : tf2_msgs_generate_messages_py/fast
+
+# Convenience name for target.
+dem_wall_following/CMakeFiles/tf_generate_messages_cpp.dir/rule:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dem_wall_following/CMakeFiles/tf_generate_messages_cpp.dir/rule
+.PHONY : dem_wall_following/CMakeFiles/tf_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+tf_generate_messages_cpp: dem_wall_following/CMakeFiles/tf_generate_messages_cpp.dir/rule
+.PHONY : tf_generate_messages_cpp
+
+# fast build rule for target.
+tf_generate_messages_cpp/fast:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f dem_wall_following/CMakeFiles/tf_generate_messages_cpp.dir/build.make dem_wall_following/CMakeFiles/tf_generate_messages_cpp.dir/build
+.PHONY : tf_generate_messages_cpp/fast
+
+# Convenience name for target.
+dem_wall_following/CMakeFiles/tf_generate_messages_lisp.dir/rule:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dem_wall_following/CMakeFiles/tf_generate_messages_lisp.dir/rule
+.PHONY : dem_wall_following/CMakeFiles/tf_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+tf_generate_messages_lisp: dem_wall_following/CMakeFiles/tf_generate_messages_lisp.dir/rule
+.PHONY : tf_generate_messages_lisp
+
+# fast build rule for target.
+tf_generate_messages_lisp/fast:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f dem_wall_following/CMakeFiles/tf_generate_messages_lisp.dir/build.make dem_wall_following/CMakeFiles/tf_generate_messages_lisp.dir/build
+.PHONY : tf_generate_messages_lisp/fast
+
+# Convenience name for target.
+dem_wall_following/CMakeFiles/tf_generate_messages_py.dir/rule:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dem_wall_following/CMakeFiles/tf_generate_messages_py.dir/rule
+.PHONY : dem_wall_following/CMakeFiles/tf_generate_messages_py.dir/rule
+
+# Convenience name for target.
+tf_generate_messages_py: dem_wall_following/CMakeFiles/tf_generate_messages_py.dir/rule
+.PHONY : tf_generate_messages_py
+
+# fast build rule for target.
+tf_generate_messages_py/fast:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f dem_wall_following/CMakeFiles/tf_generate_messages_py.dir/build.make dem_wall_following/CMakeFiles/tf_generate_messages_py.dir/build
+.PHONY : tf_generate_messages_py/fast
+
+# Convenience name for target.
 dem_wall_following/CMakeFiles/wallFollowing.dir/rule:
 	cd /home/quy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dem_wall_following/CMakeFiles/wallFollowing.dir/rule
 .PHONY : dem_wall_following/CMakeFiles/wallFollowing.dir/rule
@@ -249,6 +487,150 @@ wallFollowing: dem_wall_following/CMakeFiles/wallFollowing.dir/rule
 wallFollowing/fast:
 	cd /home/quy/catkin_ws/build && $(MAKE) -f dem_wall_following/CMakeFiles/wallFollowing.dir/build.make dem_wall_following/CMakeFiles/wallFollowing.dir/build
 .PHONY : wallFollowing/fast
+
+src/listener.o: src/listener.cpp.o
+.PHONY : src/listener.o
+
+# target to build an object file
+src/listener.cpp.o:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f dem_wall_following/CMakeFiles/listener.dir/build.make dem_wall_following/CMakeFiles/listener.dir/src/listener.cpp.o
+.PHONY : src/listener.cpp.o
+
+src/listener.i: src/listener.cpp.i
+.PHONY : src/listener.i
+
+# target to preprocess a source file
+src/listener.cpp.i:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f dem_wall_following/CMakeFiles/listener.dir/build.make dem_wall_following/CMakeFiles/listener.dir/src/listener.cpp.i
+.PHONY : src/listener.cpp.i
+
+src/listener.s: src/listener.cpp.s
+.PHONY : src/listener.s
+
+# target to generate assembly for a file
+src/listener.cpp.s:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f dem_wall_following/CMakeFiles/listener.dir/build.make dem_wall_following/CMakeFiles/listener.dir/src/listener.cpp.s
+.PHONY : src/listener.cpp.s
+
+src/move.o: src/move.cpp.o
+.PHONY : src/move.o
+
+# target to build an object file
+src/move.cpp.o:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f dem_wall_following/CMakeFiles/move.dir/build.make dem_wall_following/CMakeFiles/move.dir/src/move.cpp.o
+.PHONY : src/move.cpp.o
+
+src/move.i: src/move.cpp.i
+.PHONY : src/move.i
+
+# target to preprocess a source file
+src/move.cpp.i:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f dem_wall_following/CMakeFiles/move.dir/build.make dem_wall_following/CMakeFiles/move.dir/src/move.cpp.i
+.PHONY : src/move.cpp.i
+
+src/move.s: src/move.cpp.s
+.PHONY : src/move.s
+
+# target to generate assembly for a file
+src/move.cpp.s:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f dem_wall_following/CMakeFiles/move.dir/build.make dem_wall_following/CMakeFiles/move.dir/src/move.cpp.s
+.PHONY : src/move.cpp.s
+
+src/node_wallFollowing.o: src/node_wallFollowing.cpp.o
+.PHONY : src/node_wallFollowing.o
+
+# target to build an object file
+src/node_wallFollowing.cpp.o:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f dem_wall_following/CMakeFiles/wallFollowing.dir/build.make dem_wall_following/CMakeFiles/wallFollowing.dir/src/node_wallFollowing.cpp.o
+.PHONY : src/node_wallFollowing.cpp.o
+
+src/node_wallFollowing.i: src/node_wallFollowing.cpp.i
+.PHONY : src/node_wallFollowing.i
+
+# target to preprocess a source file
+src/node_wallFollowing.cpp.i:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f dem_wall_following/CMakeFiles/wallFollowing.dir/build.make dem_wall_following/CMakeFiles/wallFollowing.dir/src/node_wallFollowing.cpp.i
+.PHONY : src/node_wallFollowing.cpp.i
+
+src/node_wallFollowing.s: src/node_wallFollowing.cpp.s
+.PHONY : src/node_wallFollowing.s
+
+# target to generate assembly for a file
+src/node_wallFollowing.cpp.s:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f dem_wall_following/CMakeFiles/wallFollowing.dir/build.make dem_wall_following/CMakeFiles/wallFollowing.dir/src/node_wallFollowing.cpp.s
+.PHONY : src/node_wallFollowing.cpp.s
+
+src/pub.o: src/pub.cpp.o
+.PHONY : src/pub.o
+
+# target to build an object file
+src/pub.cpp.o:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f dem_wall_following/CMakeFiles/pub_kfc.dir/build.make dem_wall_following/CMakeFiles/pub_kfc.dir/src/pub.cpp.o
+.PHONY : src/pub.cpp.o
+
+src/pub.i: src/pub.cpp.i
+.PHONY : src/pub.i
+
+# target to preprocess a source file
+src/pub.cpp.i:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f dem_wall_following/CMakeFiles/pub_kfc.dir/build.make dem_wall_following/CMakeFiles/pub_kfc.dir/src/pub.cpp.i
+.PHONY : src/pub.cpp.i
+
+src/pub.s: src/pub.cpp.s
+.PHONY : src/pub.s
+
+# target to generate assembly for a file
+src/pub.cpp.s:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f dem_wall_following/CMakeFiles/pub_kfc.dir/build.make dem_wall_following/CMakeFiles/pub_kfc.dir/src/pub.cpp.s
+.PHONY : src/pub.cpp.s
+
+src/sub.o: src/sub.cpp.o
+.PHONY : src/sub.o
+
+# target to build an object file
+src/sub.cpp.o:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f dem_wall_following/CMakeFiles/sub_kfc.dir/build.make dem_wall_following/CMakeFiles/sub_kfc.dir/src/sub.cpp.o
+.PHONY : src/sub.cpp.o
+
+src/sub.i: src/sub.cpp.i
+.PHONY : src/sub.i
+
+# target to preprocess a source file
+src/sub.cpp.i:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f dem_wall_following/CMakeFiles/sub_kfc.dir/build.make dem_wall_following/CMakeFiles/sub_kfc.dir/src/sub.cpp.i
+.PHONY : src/sub.cpp.i
+
+src/sub.s: src/sub.cpp.s
+.PHONY : src/sub.s
+
+# target to generate assembly for a file
+src/sub.cpp.s:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f dem_wall_following/CMakeFiles/sub_kfc.dir/build.make dem_wall_following/CMakeFiles/sub_kfc.dir/src/sub.cpp.s
+.PHONY : src/sub.cpp.s
+
+src/talker.o: src/talker.cpp.o
+.PHONY : src/talker.o
+
+# target to build an object file
+src/talker.cpp.o:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f dem_wall_following/CMakeFiles/talker.dir/build.make dem_wall_following/CMakeFiles/talker.dir/src/talker.cpp.o
+.PHONY : src/talker.cpp.o
+
+src/talker.i: src/talker.cpp.i
+.PHONY : src/talker.i
+
+# target to preprocess a source file
+src/talker.cpp.i:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f dem_wall_following/CMakeFiles/talker.dir/build.make dem_wall_following/CMakeFiles/talker.dir/src/talker.cpp.i
+.PHONY : src/talker.cpp.i
+
+src/talker.s: src/talker.cpp.s
+.PHONY : src/talker.s
+
+# target to generate assembly for a file
+src/talker.cpp.s:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f dem_wall_following/CMakeFiles/talker.dir/build.make dem_wall_following/CMakeFiles/talker.dir/src/talker.cpp.s
+.PHONY : src/talker.cpp.s
 
 src/wallFollowing.o: src/wallFollowing.cpp.o
 .PHONY : src/wallFollowing.o
@@ -280,11 +662,17 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... actionlib_generate_messages_cpp"
+	@echo "... actionlib_generate_messages_lisp"
+	@echo "... actionlib_generate_messages_py"
 	@echo "... edit_cache"
 	@echo "... install"
 	@echo "... install/local"
 	@echo "... install/strip"
 	@echo "... list_install_components"
+	@echo "... listener"
+	@echo "... move"
+	@echo "... pub_kfc"
 	@echo "... rebuild_cache"
 	@echo "... roscpp_generate_messages_cpp"
 	@echo "... roscpp_generate_messages_lisp"
@@ -292,8 +680,37 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_cpp"
 	@echo "... rosgraph_msgs_generate_messages_lisp"
 	@echo "... rosgraph_msgs_generate_messages_py"
+	@echo "... sensor_msgs_generate_messages_cpp"
+	@echo "... sensor_msgs_generate_messages_lisp"
+	@echo "... sensor_msgs_generate_messages_py"
+	@echo "... sub_kfc"
+	@echo "... talker"
 	@echo "... test"
+	@echo "... tf2_msgs_generate_messages_cpp"
+	@echo "... tf2_msgs_generate_messages_lisp"
+	@echo "... tf2_msgs_generate_messages_py"
+	@echo "... tf_generate_messages_cpp"
+	@echo "... tf_generate_messages_lisp"
+	@echo "... tf_generate_messages_py"
 	@echo "... wallFollowing"
+	@echo "... src/listener.o"
+	@echo "... src/listener.i"
+	@echo "... src/listener.s"
+	@echo "... src/move.o"
+	@echo "... src/move.i"
+	@echo "... src/move.s"
+	@echo "... src/node_wallFollowing.o"
+	@echo "... src/node_wallFollowing.i"
+	@echo "... src/node_wallFollowing.s"
+	@echo "... src/pub.o"
+	@echo "... src/pub.i"
+	@echo "... src/pub.s"
+	@echo "... src/sub.o"
+	@echo "... src/sub.i"
+	@echo "... src/sub.s"
+	@echo "... src/talker.o"
+	@echo "... src/talker.i"
+	@echo "... src/talker.s"
 	@echo "... src/wallFollowing.o"
 	@echo "... src/wallFollowing.i"
 	@echo "... src/wallFollowing.s"

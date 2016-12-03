@@ -5,4 +5,4 @@ PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "qw"
 PROJECT_SPACE_DIR = "/home/quy/catkin_ws/install"
-PROJECT_VERSION = "0.1.0"
+PROJECT_VERSION = "0.0.0"

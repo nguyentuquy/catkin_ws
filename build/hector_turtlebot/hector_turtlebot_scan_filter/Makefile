@@ -166,48 +166,6 @@ hector_turtlebot_scan_filter/fast:
 	cd /home/quy/catkin_ws/build && $(MAKE) -f hector_turtlebot/hector_turtlebot_scan_filter/CMakeFiles/hector_turtlebot_scan_filter.dir/build.make hector_turtlebot/hector_turtlebot_scan_filter/CMakeFiles/hector_turtlebot_scan_filter.dir/build
 .PHONY : hector_turtlebot_scan_filter/fast
 
-# Convenience name for target.
-hector_turtlebot/hector_turtlebot_scan_filter/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule:
-	cd /home/quy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 hector_turtlebot/hector_turtlebot_scan_filter/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
-.PHONY : hector_turtlebot/hector_turtlebot_scan_filter/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_cpp: hector_turtlebot/hector_turtlebot_scan_filter/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
-.PHONY : sensor_msgs_generate_messages_cpp
-
-# fast build rule for target.
-sensor_msgs_generate_messages_cpp/fast:
-	cd /home/quy/catkin_ws/build && $(MAKE) -f hector_turtlebot/hector_turtlebot_scan_filter/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make hector_turtlebot/hector_turtlebot_scan_filter/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
-.PHONY : sensor_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-hector_turtlebot/hector_turtlebot_scan_filter/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule:
-	cd /home/quy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 hector_turtlebot/hector_turtlebot_scan_filter/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
-.PHONY : hector_turtlebot/hector_turtlebot_scan_filter/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_lisp: hector_turtlebot/hector_turtlebot_scan_filter/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
-.PHONY : sensor_msgs_generate_messages_lisp
-
-# fast build rule for target.
-sensor_msgs_generate_messages_lisp/fast:
-	cd /home/quy/catkin_ws/build && $(MAKE) -f hector_turtlebot/hector_turtlebot_scan_filter/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make hector_turtlebot/hector_turtlebot_scan_filter/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
-.PHONY : sensor_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-hector_turtlebot/hector_turtlebot_scan_filter/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule:
-	cd /home/quy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 hector_turtlebot/hector_turtlebot_scan_filter/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
-.PHONY : hector_turtlebot/hector_turtlebot_scan_filter/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_py: hector_turtlebot/hector_turtlebot_scan_filter/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
-.PHONY : sensor_msgs_generate_messages_py
-
-# fast build rule for target.
-sensor_msgs_generate_messages_py/fast:
-	cd /home/quy/catkin_ws/build && $(MAKE) -f hector_turtlebot/hector_turtlebot_scan_filter/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make hector_turtlebot/hector_turtlebot_scan_filter/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
-.PHONY : sensor_msgs_generate_messages_py/fast
-
 src/hector_turtlebot_scan_filter.o: src/hector_turtlebot_scan_filter.cpp.o
 .PHONY : src/hector_turtlebot_scan_filter.o
 
@@ -245,9 +203,6 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... sensor_msgs_generate_messages_cpp"
-	@echo "... sensor_msgs_generate_messages_lisp"
-	@echo "... sensor_msgs_generate_messages_py"
 	@echo "... test"
 	@echo "... src/hector_turtlebot_scan_filter.o"
 	@echo "... src/hector_turtlebot_scan_filter.i"

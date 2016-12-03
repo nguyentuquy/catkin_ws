@@ -1,0 +1,8 @@
+prefix=/home/quy/catkin_ws/install
+
+Name: dem_wall_following
+Description: Description of dem_wall_following
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/quy/catkin_ws/install/lib 
+Requires: 

@@ -52,9 +52,32 @@ include dem_wall_following/CMakeFiles/wallFollowing.dir/progress.make
 # Include the compile flags for this target's objects.
 include dem_wall_following/CMakeFiles/wallFollowing.dir/flags.make
 
+dem_wall_following/CMakeFiles/wallFollowing.dir/src/node_wallFollowing.cpp.o: dem_wall_following/CMakeFiles/wallFollowing.dir/flags.make
+dem_wall_following/CMakeFiles/wallFollowing.dir/src/node_wallFollowing.cpp.o: /home/quy/catkin_ws/src/dem_wall_following/src/node_wallFollowing.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/quy/catkin_ws/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object dem_wall_following/CMakeFiles/wallFollowing.dir/src/node_wallFollowing.cpp.o"
+	cd /home/quy/catkin_ws/build/dem_wall_following && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wallFollowing.dir/src/node_wallFollowing.cpp.o -c /home/quy/catkin_ws/src/dem_wall_following/src/node_wallFollowing.cpp
+
+dem_wall_following/CMakeFiles/wallFollowing.dir/src/node_wallFollowing.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wallFollowing.dir/src/node_wallFollowing.cpp.i"
+	cd /home/quy/catkin_ws/build/dem_wall_following && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/quy/catkin_ws/src/dem_wall_following/src/node_wallFollowing.cpp > CMakeFiles/wallFollowing.dir/src/node_wallFollowing.cpp.i
+
+dem_wall_following/CMakeFiles/wallFollowing.dir/src/node_wallFollowing.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wallFollowing.dir/src/node_wallFollowing.cpp.s"
+	cd /home/quy/catkin_ws/build/dem_wall_following && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/quy/catkin_ws/src/dem_wall_following/src/node_wallFollowing.cpp -o CMakeFiles/wallFollowing.dir/src/node_wallFollowing.cpp.s
+
+dem_wall_following/CMakeFiles/wallFollowing.dir/src/node_wallFollowing.cpp.o.requires:
+.PHONY : dem_wall_following/CMakeFiles/wallFollowing.dir/src/node_wallFollowing.cpp.o.requires
+
+dem_wall_following/CMakeFiles/wallFollowing.dir/src/node_wallFollowing.cpp.o.provides: dem_wall_following/CMakeFiles/wallFollowing.dir/src/node_wallFollowing.cpp.o.requires
+	$(MAKE) -f dem_wall_following/CMakeFiles/wallFollowing.dir/build.make dem_wall_following/CMakeFiles/wallFollowing.dir/src/node_wallFollowing.cpp.o.provides.build
+.PHONY : dem_wall_following/CMakeFiles/wallFollowing.dir/src/node_wallFollowing.cpp.o.provides
+
+dem_wall_following/CMakeFiles/wallFollowing.dir/src/node_wallFollowing.cpp.o.provides.build: dem_wall_following/CMakeFiles/wallFollowing.dir/src/node_wallFollowing.cpp.o
+
 dem_wall_following/CMakeFiles/wallFollowing.dir/src/wallFollowing.cpp.o: dem_wall_following/CMakeFiles/wallFollowing.dir/flags.make
 dem_wall_following/CMakeFiles/wallFollowing.dir/src/wallFollowing.cpp.o: /home/quy/catkin_ws/src/dem_wall_following/src/wallFollowing.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/quy/catkin_ws/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/quy/catkin_ws/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object dem_wall_following/CMakeFiles/wallFollowing.dir/src/wallFollowing.cpp.o"
 	cd /home/quy/catkin_ws/build/dem_wall_following && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/wallFollowing.dir/src/wallFollowing.cpp.o -c /home/quy/catkin_ws/src/dem_wall_following/src/wallFollowing.cpp
 
@@ -77,38 +100,46 @@ dem_wall_following/CMakeFiles/wallFollowing.dir/src/wallFollowing.cpp.o.provides
 
 # Object files for target wallFollowing
 wallFollowing_OBJECTS = \
+"CMakeFiles/wallFollowing.dir/src/node_wallFollowing.cpp.o" \
 "CMakeFiles/wallFollowing.dir/src/wallFollowing.cpp.o"
 
 # External object files for target wallFollowing
 wallFollowing_EXTERNAL_OBJECTS =
 
-dem_wall_following/wallFollowing: dem_wall_following/CMakeFiles/wallFollowing.dir/src/wallFollowing.cpp.o
-dem_wall_following/wallFollowing: dem_wall_following/CMakeFiles/wallFollowing.dir/build.make
-dem_wall_following/wallFollowing: /opt/ros/indigo/lib/libroscpp.so
-dem_wall_following/wallFollowing: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-dem_wall_following/wallFollowing: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-dem_wall_following/wallFollowing: /opt/ros/indigo/lib/librosconsole.so
-dem_wall_following/wallFollowing: /opt/ros/indigo/lib/librosconsole_log4cxx.so
-dem_wall_following/wallFollowing: /opt/ros/indigo/lib/librosconsole_backend_interface.so
-dem_wall_following/wallFollowing: /usr/lib/liblog4cxx.so
-dem_wall_following/wallFollowing: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-dem_wall_following/wallFollowing: /opt/ros/indigo/lib/libxmlrpcpp.so
-dem_wall_following/wallFollowing: /opt/ros/indigo/lib/libroscpp_serialization.so
-dem_wall_following/wallFollowing: /opt/ros/indigo/lib/librostime.so
-dem_wall_following/wallFollowing: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-dem_wall_following/wallFollowing: /opt/ros/indigo/lib/libcpp_common.so
-dem_wall_following/wallFollowing: /usr/lib/x86_64-linux-gnu/libboost_system.so
-dem_wall_following/wallFollowing: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-dem_wall_following/wallFollowing: /usr/lib/x86_64-linux-gnu/libpthread.so
-dem_wall_following/wallFollowing: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-dem_wall_following/wallFollowing: dem_wall_following/CMakeFiles/wallFollowing.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable wallFollowing"
+/home/quy/catkin_ws/devel/lib/dem_wall_following/wallFollowing: dem_wall_following/CMakeFiles/wallFollowing.dir/src/node_wallFollowing.cpp.o
+/home/quy/catkin_ws/devel/lib/dem_wall_following/wallFollowing: dem_wall_following/CMakeFiles/wallFollowing.dir/src/wallFollowing.cpp.o
+/home/quy/catkin_ws/devel/lib/dem_wall_following/wallFollowing: dem_wall_following/CMakeFiles/wallFollowing.dir/build.make
+/home/quy/catkin_ws/devel/lib/dem_wall_following/wallFollowing: /opt/ros/indigo/lib/libtf.so
+/home/quy/catkin_ws/devel/lib/dem_wall_following/wallFollowing: /opt/ros/indigo/lib/libtf2_ros.so
+/home/quy/catkin_ws/devel/lib/dem_wall_following/wallFollowing: /opt/ros/indigo/lib/libactionlib.so
+/home/quy/catkin_ws/devel/lib/dem_wall_following/wallFollowing: /opt/ros/indigo/lib/libmessage_filters.so
+/home/quy/catkin_ws/devel/lib/dem_wall_following/wallFollowing: /opt/ros/indigo/lib/libroscpp.so
+/home/quy/catkin_ws/devel/lib/dem_wall_following/wallFollowing: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/quy/catkin_ws/devel/lib/dem_wall_following/wallFollowing: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/quy/catkin_ws/devel/lib/dem_wall_following/wallFollowing: /opt/ros/indigo/lib/libxmlrpcpp.so
+/home/quy/catkin_ws/devel/lib/dem_wall_following/wallFollowing: /opt/ros/indigo/lib/libtf2.so
+/home/quy/catkin_ws/devel/lib/dem_wall_following/wallFollowing: /opt/ros/indigo/lib/libroscpp_serialization.so
+/home/quy/catkin_ws/devel/lib/dem_wall_following/wallFollowing: /opt/ros/indigo/lib/librosconsole.so
+/home/quy/catkin_ws/devel/lib/dem_wall_following/wallFollowing: /opt/ros/indigo/lib/librosconsole_log4cxx.so
+/home/quy/catkin_ws/devel/lib/dem_wall_following/wallFollowing: /opt/ros/indigo/lib/librosconsole_backend_interface.so
+/home/quy/catkin_ws/devel/lib/dem_wall_following/wallFollowing: /usr/lib/liblog4cxx.so
+/home/quy/catkin_ws/devel/lib/dem_wall_following/wallFollowing: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/quy/catkin_ws/devel/lib/dem_wall_following/wallFollowing: /opt/ros/indigo/lib/librostime.so
+/home/quy/catkin_ws/devel/lib/dem_wall_following/wallFollowing: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/quy/catkin_ws/devel/lib/dem_wall_following/wallFollowing: /opt/ros/indigo/lib/libcpp_common.so
+/home/quy/catkin_ws/devel/lib/dem_wall_following/wallFollowing: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/quy/catkin_ws/devel/lib/dem_wall_following/wallFollowing: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/quy/catkin_ws/devel/lib/dem_wall_following/wallFollowing: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/quy/catkin_ws/devel/lib/dem_wall_following/wallFollowing: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/quy/catkin_ws/devel/lib/dem_wall_following/wallFollowing: dem_wall_following/CMakeFiles/wallFollowing.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable /home/quy/catkin_ws/devel/lib/dem_wall_following/wallFollowing"
 	cd /home/quy/catkin_ws/build/dem_wall_following && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/wallFollowing.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-dem_wall_following/CMakeFiles/wallFollowing.dir/build: dem_wall_following/wallFollowing
+dem_wall_following/CMakeFiles/wallFollowing.dir/build: /home/quy/catkin_ws/devel/lib/dem_wall_following/wallFollowing
 .PHONY : dem_wall_following/CMakeFiles/wallFollowing.dir/build
 
+dem_wall_following/CMakeFiles/wallFollowing.dir/requires: dem_wall_following/CMakeFiles/wallFollowing.dir/src/node_wallFollowing.cpp.o.requires
 dem_wall_following/CMakeFiles/wallFollowing.dir/requires: dem_wall_following/CMakeFiles/wallFollowing.dir/src/wallFollowing.cpp.o.requires
 .PHONY : dem_wall_following/CMakeFiles/wallFollowing.dir/requires
 

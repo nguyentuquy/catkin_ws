@@ -1,12 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <Workspace>
     <WatchDirectories>
         <Directory>src</Directory>
     </WatchDirectories>
     <IncludePaths>
         <Directory>/home/quy/catkin_ws/src/dem_wall_following/include</Directory>
+        <Directory>/home/quy/catkin_ws/devel/include</Directory>
+        <Directory>/home/quy/catkin_ws/src/hector_slam/hector_geotiff/include</Directory>
+        <Directory>/home/quy/catkin_ws/src/hector_slam/hector_geotiff/include/hector_geotiff</Directory>
+        <Directory>/home/quy/catkin_ws/src/hector_slam/hector_map_tools/include</Directory>
+        <Directory>/home/quy/catkin_ws/src/hector_turtlebot/hector_turtlebot_scan_filter/include</Directory>
+        <Directory>/home/quy/catkin_ws/src/hector_slam/hector_marker_drawing/include</Directory>
+        <Directory>/home/quy/catkin_ws/src/hector_slam/hector_mapping/include</Directory>
+        <Directory>/home/quy/catkin_ws/src/hector_slam/hector_mapping/include/hector_slam_lib</Directory>
         <Directory>/home/quy/catkin_ws/src/kobuki_controller_tutorial/include</Directory>
         <Directory>/usr/src/gtest</Directory>
+        <Directory>/usr/src/gtest/include</Directory>
         <Directory>/opt/ros/indigo/include</Directory>
+        <Directory>/usr/include/eigen3</Directory>
+        <Directory>/usr/include/qt4</Directory>
+        <Directory>/usr/include/qt4/QtCore</Directory>
+        <Directory>/usr/include/qt4/QtGui</Directory>
+        <Directory>/usr/include/opencv</Directory>
+        <Directory>/usr/local/include</Directory>
+        <Directory>/usr/local/include/opencv</Directory>
     </IncludePaths>
 </Workspace>
