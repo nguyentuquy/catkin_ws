@@ -195,6 +195,104 @@ actionlib_generate_messages_py/fast:
 .PHONY : actionlib_generate_messages_py/fast
 
 # Convenience name for target.
+dem_wall_following/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dem_wall_following/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
+.PHONY : dem_wall_following/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+actionlib_msgs_generate_messages_cpp: dem_wall_following/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
+.PHONY : actionlib_msgs_generate_messages_cpp
+
+# fast build rule for target.
+actionlib_msgs_generate_messages_cpp/fast:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f dem_wall_following/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make dem_wall_following/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build
+.PHONY : actionlib_msgs_generate_messages_cpp/fast
+
+# Convenience name for target.
+dem_wall_following/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dem_wall_following/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
+.PHONY : dem_wall_following/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+actionlib_msgs_generate_messages_lisp: dem_wall_following/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
+.PHONY : actionlib_msgs_generate_messages_lisp
+
+# fast build rule for target.
+actionlib_msgs_generate_messages_lisp/fast:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f dem_wall_following/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make dem_wall_following/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build
+.PHONY : actionlib_msgs_generate_messages_lisp/fast
+
+# Convenience name for target.
+dem_wall_following/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dem_wall_following/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
+.PHONY : dem_wall_following/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+actionlib_msgs_generate_messages_py: dem_wall_following/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
+.PHONY : actionlib_msgs_generate_messages_py
+
+# fast build rule for target.
+actionlib_msgs_generate_messages_py/fast:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f dem_wall_following/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make dem_wall_following/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build
+.PHONY : actionlib_msgs_generate_messages_py/fast
+
+# Convenience name for target.
+dem_wall_following/CMakeFiles/auto_move.dir/rule:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dem_wall_following/CMakeFiles/auto_move.dir/rule
+.PHONY : dem_wall_following/CMakeFiles/auto_move.dir/rule
+
+# Convenience name for target.
+auto_move: dem_wall_following/CMakeFiles/auto_move.dir/rule
+.PHONY : auto_move
+
+# fast build rule for target.
+auto_move/fast:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f dem_wall_following/CMakeFiles/auto_move.dir/build.make dem_wall_following/CMakeFiles/auto_move.dir/build
+.PHONY : auto_move/fast
+
+# Convenience name for target.
+dem_wall_following/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dem_wall_following/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
+.PHONY : dem_wall_following/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_cpp: dem_wall_following/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
+.PHONY : geometry_msgs_generate_messages_cpp
+
+# fast build rule for target.
+geometry_msgs_generate_messages_cpp/fast:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f dem_wall_following/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make dem_wall_following/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
+.PHONY : geometry_msgs_generate_messages_cpp/fast
+
+# Convenience name for target.
+dem_wall_following/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dem_wall_following/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
+.PHONY : dem_wall_following/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_lisp: dem_wall_following/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
+.PHONY : geometry_msgs_generate_messages_lisp
+
+# fast build rule for target.
+geometry_msgs_generate_messages_lisp/fast:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f dem_wall_following/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make dem_wall_following/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
+.PHONY : geometry_msgs_generate_messages_lisp/fast
+
+# Convenience name for target.
+dem_wall_following/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dem_wall_following/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
+.PHONY : dem_wall_following/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_py: dem_wall_following/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
+.PHONY : geometry_msgs_generate_messages_py
+
+# fast build rule for target.
+geometry_msgs_generate_messages_py/fast:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f dem_wall_following/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make dem_wall_following/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
+.PHONY : geometry_msgs_generate_messages_py/fast
+
+# Convenience name for target.
 dem_wall_following/CMakeFiles/listener.dir/rule:
 	cd /home/quy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dem_wall_following/CMakeFiles/listener.dir/rule
 .PHONY : dem_wall_following/CMakeFiles/listener.dir/rule
@@ -363,6 +461,48 @@ sensor_msgs_generate_messages_py/fast:
 .PHONY : sensor_msgs_generate_messages_py/fast
 
 # Convenience name for target.
+dem_wall_following/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dem_wall_following/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+.PHONY : dem_wall_following/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+std_msgs_generate_messages_cpp: dem_wall_following/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+.PHONY : std_msgs_generate_messages_cpp
+
+# fast build rule for target.
+std_msgs_generate_messages_cpp/fast:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f dem_wall_following/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make dem_wall_following/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+.PHONY : std_msgs_generate_messages_cpp/fast
+
+# Convenience name for target.
+dem_wall_following/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dem_wall_following/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+.PHONY : dem_wall_following/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+std_msgs_generate_messages_lisp: dem_wall_following/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+.PHONY : std_msgs_generate_messages_lisp
+
+# fast build rule for target.
+std_msgs_generate_messages_lisp/fast:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f dem_wall_following/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make dem_wall_following/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+.PHONY : std_msgs_generate_messages_lisp/fast
+
+# Convenience name for target.
+dem_wall_following/CMakeFiles/std_msgs_generate_messages_py.dir/rule:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dem_wall_following/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+.PHONY : dem_wall_following/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+std_msgs_generate_messages_py: dem_wall_following/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+.PHONY : std_msgs_generate_messages_py
+
+# fast build rule for target.
+std_msgs_generate_messages_py/fast:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f dem_wall_following/CMakeFiles/std_msgs_generate_messages_py.dir/build.make dem_wall_following/CMakeFiles/std_msgs_generate_messages_py.dir/build
+.PHONY : std_msgs_generate_messages_py/fast
+
+# Convenience name for target.
 dem_wall_following/CMakeFiles/sub_kfc.dir/rule:
 	cd /home/quy/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 dem_wall_following/CMakeFiles/sub_kfc.dir/rule
 .PHONY : dem_wall_following/CMakeFiles/sub_kfc.dir/rule
@@ -487,6 +627,30 @@ wallFollowing: dem_wall_following/CMakeFiles/wallFollowing.dir/rule
 wallFollowing/fast:
 	cd /home/quy/catkin_ws/build && $(MAKE) -f dem_wall_following/CMakeFiles/wallFollowing.dir/build.make dem_wall_following/CMakeFiles/wallFollowing.dir/build
 .PHONY : wallFollowing/fast
+
+src/auto_move.o: src/auto_move.cpp.o
+.PHONY : src/auto_move.o
+
+# target to build an object file
+src/auto_move.cpp.o:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f dem_wall_following/CMakeFiles/auto_move.dir/build.make dem_wall_following/CMakeFiles/auto_move.dir/src/auto_move.cpp.o
+.PHONY : src/auto_move.cpp.o
+
+src/auto_move.i: src/auto_move.cpp.i
+.PHONY : src/auto_move.i
+
+# target to preprocess a source file
+src/auto_move.cpp.i:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f dem_wall_following/CMakeFiles/auto_move.dir/build.make dem_wall_following/CMakeFiles/auto_move.dir/src/auto_move.cpp.i
+.PHONY : src/auto_move.cpp.i
+
+src/auto_move.s: src/auto_move.cpp.s
+.PHONY : src/auto_move.s
+
+# target to generate assembly for a file
+src/auto_move.cpp.s:
+	cd /home/quy/catkin_ws/build && $(MAKE) -f dem_wall_following/CMakeFiles/auto_move.dir/build.make dem_wall_following/CMakeFiles/auto_move.dir/src/auto_move.cpp.s
+.PHONY : src/auto_move.cpp.s
 
 src/listener.o: src/listener.cpp.o
 .PHONY : src/listener.o
@@ -665,7 +829,14 @@ help:
 	@echo "... actionlib_generate_messages_cpp"
 	@echo "... actionlib_generate_messages_lisp"
 	@echo "... actionlib_generate_messages_py"
+	@echo "... actionlib_msgs_generate_messages_cpp"
+	@echo "... actionlib_msgs_generate_messages_lisp"
+	@echo "... actionlib_msgs_generate_messages_py"
+	@echo "... auto_move"
 	@echo "... edit_cache"
+	@echo "... geometry_msgs_generate_messages_cpp"
+	@echo "... geometry_msgs_generate_messages_lisp"
+	@echo "... geometry_msgs_generate_messages_py"
 	@echo "... install"
 	@echo "... install/local"
 	@echo "... install/strip"
@@ -683,6 +854,9 @@ help:
 	@echo "... sensor_msgs_generate_messages_cpp"
 	@echo "... sensor_msgs_generate_messages_lisp"
 	@echo "... sensor_msgs_generate_messages_py"
+	@echo "... std_msgs_generate_messages_cpp"
+	@echo "... std_msgs_generate_messages_lisp"
+	@echo "... std_msgs_generate_messages_py"
 	@echo "... sub_kfc"
 	@echo "... talker"
 	@echo "... test"
@@ -693,6 +867,9 @@ help:
 	@echo "... tf_generate_messages_lisp"
 	@echo "... tf_generate_messages_py"
 	@echo "... wallFollowing"
+	@echo "... src/auto_move.o"
+	@echo "... src/auto_move.i"
+	@echo "... src/auto_move.s"
 	@echo "... src/listener.o"
 	@echo "... src/listener.i"
 	@echo "... src/listener.s"

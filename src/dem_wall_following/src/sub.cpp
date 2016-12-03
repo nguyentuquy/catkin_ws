@@ -89,12 +89,12 @@ void callback(const PointCloud::ConstPtr& msg){
     }
    cout<<"===================="<< i <<"=============================\n";
    cout<<"Distance="<<minDistance<<"\n";
-   cout<<"Angle in Degree X axis="<<min_angle_radx*(180/3.14159265358979323846)<<"\n";
-   cout<<"Angle in Degree Y axis="<<min_angle_rady*(180/3.14159265358979323846)<<"\n";
-   cout<<"pointXcoordinate="<<xX<<"\n";
-   cout<<"pointYcoordinate="<<yY<<"\n";
-   cout<<"pointZcoordinate="<<zZ<<"\n";
-   sleep(1000);//use sleep if you want to delay loop.
+//   cout<<"Angle in Degree X axis="<<min_angle_radx*(180/3.14159265358979323846)<<"\n";
+//   cout<<"Angle in Degree Y axis="<<min_angle_rady*(180/3.14159265358979323846)<<"\n";
+//   cout<<"pointXcoordinate="<<xX<<"\n";
+//   cout<<"pointYcoordinate="<<yY<<"\n";
+//   cout<<"pointZcoordinate="<<zZ<<"\n";
+   sleep(2);//use sleep if you want to delay loop.
 }
 
 int main(int argc, char** argv)

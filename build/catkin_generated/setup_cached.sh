@@ -7,4 +7,6 @@
 # new environment variables
 
 # modified environment variables
+export CPATH="/home/quy/catkin_ws/devel/include:$CPATH"
 export PWD="/home/quy/catkin_ws/build"
+export PYTHONPATH="/home/quy/catkin_ws/devel/lib/python2.7/dist-packages:$PYTHONPATH"

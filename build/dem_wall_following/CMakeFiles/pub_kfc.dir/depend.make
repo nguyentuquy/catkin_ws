@@ -9,6 +9,7 @@ dem_wall_following/CMakeFiles/pub_kfc.dir/src/pub.cpp.o: /opt/ros/indigo/include
 dem_wall_following/CMakeFiles/pub_kfc.dir/src/pub.cpp.o: /opt/ros/indigo/include/pcl_msgs/PointIndices.h
 dem_wall_following/CMakeFiles/pub_kfc.dir/src/pub.cpp.o: /opt/ros/indigo/include/pcl_msgs/PolygonMesh.h
 dem_wall_following/CMakeFiles/pub_kfc.dir/src/pub.cpp.o: /opt/ros/indigo/include/pcl_msgs/Vertices.h
+dem_wall_following/CMakeFiles/pub_kfc.dir/src/pub.cpp.o: /opt/ros/indigo/include/pcl_ros/point_cloud.h
 dem_wall_following/CMakeFiles/pub_kfc.dir/src/pub.cpp.o: /opt/ros/indigo/include/ros/advertise_options.h
 dem_wall_following/CMakeFiles/pub_kfc.dir/src/pub.cpp.o: /opt/ros/indigo/include/ros/advertise_service_options.h
 dem_wall_following/CMakeFiles/pub_kfc.dir/src/pub.cpp.o: /opt/ros/indigo/include/ros/assert.h
@@ -304,7 +305,9 @@ dem_wall_following/CMakeFiles/pub_kfc.dir/src/pub.cpp.o: /usr/include/pcl-1.7/pc
 dem_wall_following/CMakeFiles/pub_kfc.dir/src/pub.cpp.o: /usr/include/pcl-1.7/pcl/filters/impl/crop_box.hpp
 dem_wall_following/CMakeFiles/pub_kfc.dir/src/pub.cpp.o: /usr/include/pcl-1.7/pcl/filters/impl/filter.hpp
 dem_wall_following/CMakeFiles/pub_kfc.dir/src/pub.cpp.o: /usr/include/pcl-1.7/pcl/filters/impl/filter_indices.hpp
+dem_wall_following/CMakeFiles/pub_kfc.dir/src/pub.cpp.o: /usr/include/pcl-1.7/pcl/filters/impl/passthrough.hpp
 dem_wall_following/CMakeFiles/pub_kfc.dir/src/pub.cpp.o: /usr/include/pcl-1.7/pcl/filters/impl/voxel_grid.hpp
+dem_wall_following/CMakeFiles/pub_kfc.dir/src/pub.cpp.o: /usr/include/pcl-1.7/pcl/filters/passthrough.h
 dem_wall_following/CMakeFiles/pub_kfc.dir/src/pub.cpp.o: /usr/include/pcl-1.7/pcl/filters/voxel_grid.h
 dem_wall_following/CMakeFiles/pub_kfc.dir/src/pub.cpp.o: /usr/include/pcl-1.7/pcl/for_each_type.h
 dem_wall_following/CMakeFiles/pub_kfc.dir/src/pub.cpp.o: /usr/include/pcl-1.7/pcl/impl/cloud_iterator.hpp

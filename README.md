@@ -111,6 +111,31 @@ roslaunch turtlebot_gazebo turtlebot_world.launch world_file:=/opt/ros/indigo/sh
 	21.3 Teleop_keyboard
 		$  roslaunch turtlebot_teleop keyboard_teleop.launch 
 
+22. Distance to Wall
+	22.1 launch Gazebo
+	$  roslaunch turtlebot_gazebo turtlebot_world.launch
+
+	22.2 Lau openni
+	$  roslaunch openni_launch openni.launch
+	
+	22.3 Run Pub
+	$  rosrun dem_wall_following pub_kfc
+
+	22.4 Run sub
+	$ rosrun dem_wall_following sub_kfc
+
+	22.5 run RVIZ
+	$ roslaunch turtlebot_rviz_launchers view_robot.launch
+23. Do khoang cach giua tuong voi robot
+	23.1 launch Gazebo
+	$  roslaunch turtlebot_gazebo turtlebot_world.launch
+
+	23.2 Lau openni
+	$  roslaunch openni_launch openni.launch
+	
+	23.3 Run Pub(tu pub & tu sub)
+	$  rosrun dem_wall_following pub_kfc
+
 
 
 

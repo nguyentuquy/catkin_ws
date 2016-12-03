@@ -17,16 +17,6 @@ int main(int argc, char **argv)
   ros::Rate loop_rate(10);
 
 
-
-
-
-
-
-
-
-
-
-
   int count = 0;
   while (ros::ok())
   {
@@ -41,7 +31,7 @@ int main(int argc, char **argv)
     ++count;
   }
 
-ros::spin();
+  ros::spin();
   return 0;
 }
 

@@ -23,6 +23,18 @@ pcl/filters/crop_box.h
 -
 ros/ros.h
 -
+pcl_ros/point_cloud.h
+-
+pcl/point_types.h
+-
+boost/foreach.hpp
+-
+pcl/point_types.h
+-
+pcl/filters/passthrough.h
+-
+stdio.h
+-
 
 /opt/ros/indigo/include/XmlRpcDecl.h
 ros/macros.h
@@ -158,6 +170,26 @@ ros/serialization.h
 ros/builtin_message_traits.h
 -
 ros/message_operations.h
+-
+
+/opt/ros/indigo/include/pcl_ros/point_cloud.h
+ros/ros.h
+-
+pcl/point_cloud.h
+-
+pcl/point_traits.h
+-
+pcl/for_each_type.h
+-
+pcl/conversions.h
+-
+pcl_conversions/pcl_conversions.h
+-
+sensor_msgs/PointCloud2.h
+-
+boost/mpl/size.hpp
+-
+boost/ref.hpp
 -
 
 /opt/ros/indigo/include/ros/advertise_options.h
@@ -2212,12 +2244,24 @@ pcl/pcl_macros.h
 pcl/filters/filter_indices.h
 -
 
+/usr/include/pcl-1.7/pcl/filters/impl/passthrough.hpp
+pcl/filters/passthrough.h
+-
+pcl/common/io.h
+-
+
 /usr/include/pcl-1.7/pcl/filters/impl/voxel_grid.hpp
 pcl/common/common.h
 -
 pcl/common/io.h
 -
 pcl/filters/voxel_grid.h
+-
+
+/usr/include/pcl-1.7/pcl/filters/passthrough.h
+pcl/filters/filter_indices.h
+-
+pcl/filters/impl/passthrough.hpp
 -
 
 /usr/include/pcl-1.7/pcl/filters/voxel_grid.h

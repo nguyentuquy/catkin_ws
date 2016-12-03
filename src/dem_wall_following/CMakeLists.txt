@@ -56,3 +56,9 @@ add_dependencies(pub_kfc test_generate_messages_cpp)
 add_executable(sub_kfc src/sub.cpp)
 target_link_libraries(sub_kfc ${catkin_LIBRARIES} ${OpenCV_LIBRARIES} ${PCL_LIBRARIES} )
 add_dependencies(sub_kfc test_generate_messages_cpp)
+
+#auto_move
+
+add_executable(auto_move src/auto_move.cpp)
+target_link_libraries(auto_move ${catkin_LIBRARIES} ${OpenCV_LIBRARIES} ${PCL_LIBRARIES} )
+add_dependencies(auto_move test_generate_messages_cpp)
